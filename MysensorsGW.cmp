@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-07 BZR 5579)-product   date = man 20 apr 2015 22:27:39 CEST
+Cmp-Mod V01 Created by Cvpcb (2015-04-07 BZR 5579)-product   date = ons 22 apr 2015 21:23:20 CEST
 
 BeginCmp
 TimeStamp = /55242605;
@@ -40,6 +40,20 @@ TimeStamp = /5525772D;
 Reference = CON1;
 ValeurCmp = AVR-ISP-6;
 IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /5537F25E;
+Reference = D1;
+ValeurCmp = Dual_DIODE;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5537F71A;
+Reference = D2;
+ValeurCmp = Dual_DIODE;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering;
 EndCmp
 
 BeginCmp

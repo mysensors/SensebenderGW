@@ -40,7 +40,7 @@ Title "MySensors Gateway"
 Date ""
 Rev "0.1"
 Comp "Mysensors.org"
-Comment1 ""
+Comment1 "Created by Thomas Mørch"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -815,7 +815,7 @@ L CONN_1 P1
 U 1 1 55357958
 P 5600 4250
 F 0 "P1" H 5680 4250 40  0000 L CNN
-F 1 "CONN_1" H 5600 4305 30  0001 C CNN
+F 1 "ANT" H 5600 4305 30  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 5600 4250 60  0001 C CNN
 F 3 "" H 5600 4250 60  0000 C CNN
 	1    5600 4250
