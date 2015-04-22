@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name MysensorsGW)(type KiCad)(uri "$(KIPRJMOD).pretty")(options "")(descr ""))
+)

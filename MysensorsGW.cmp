@@ -1,0 +1,150 @@
+Cmp-Mod V01 Created by Cvpcb (2015-04-07 BZR 5579)-product   date = man 20 apr 2015 22:27:39 CEST
+
+BeginCmp
+TimeStamp = /55242605;
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5524259F;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55243503;
+Reference = C3;
+ValeurCmp = 10pf;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55243542;
+Reference = C4;
+ValeurCmp = 10pf;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55258523;
+Reference = C5;
+ValeurCmp = 100nf;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5525772D;
+Reference = CON1;
+ValeurCmp = AVR-ISP-6;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /55241C11;
+Reference = IC1;
+ValeurCmp = ATMEGA1284P-A;
+IdModule  = Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55357958;
+Reference = P1;
+ValeurCmp = CONN_1;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /5524262A;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5525797B;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /553574E8;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55242130;
+Reference = RP1;
+ValeurCmp = R_PACK4;
+IdModule  = Resistors_SMD:R_Array_Convex_4x0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5532D89F;
+Reference = RP2;
+ValeurCmp = R_PACK4;
+IdModule  = Resistors_SMD:R_Array_Convex_4x0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552422E3;
+Reference = U1;
+ValeurCmp = W25X40CLSNIG;
+IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55241C61;
+Reference = U2;
+ValeurCmp = FT232RL;
+IdModule  = Housings_SOIC:SOIC-28_7.5x17.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55241CD4;
+Reference = U3;
+ValeurCmp = MICRO-B_USB;
+IdModule  = Connect:USB_Micro-B;
+EndCmp
+
+BeginCmp
+TimeStamp = /55243EA1;
+Reference = U4;
+ValeurCmp = TPS7133QD;
+IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5526D07D;
+Reference = U5;
+ValeurCmp = ATSHA204;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = /5532BD97;
+Reference = U6;
+ValeurCmp = NRF24L01;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /553419D9;
+Reference = U7;
+ValeurCmp = RFM69W;
+IdModule  = MysensorsGW:rfm69w;
+EndCmp
+
+BeginCmp
+TimeStamp = /552433C5;
+Reference = X1;
+ValeurCmp = CRYSTAL_SMD;
+IdModule  = Crystals_Oscillators_SMD:Q_49U3HMS;
+EndCmp
+
+EndListe
