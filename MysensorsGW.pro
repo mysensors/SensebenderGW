@@ -1,4 +1,4 @@
-update=ons 22 apr 2015 20:36:04 CEST
+update=lør 25 apr 2015 21:02:48 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,19 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [eeschema]
 version=1
 LibDir=../libraries
@@ -74,3 +61,13 @@ LibName29=contrib
 LibName30=valves
 LibName31=MySensors
 LibName32=/home/thomas/Projects/kicad/libraries/MySensors
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

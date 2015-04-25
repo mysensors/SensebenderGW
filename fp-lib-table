@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name footprintLib)(type KiCad)(uri "$(KIPRJMOD)/../libraries/footprints.pretty")(options "")(descr ""))
+  (lib (name mysensors_radios)(type KiCad)(uri /home/thomas/Projects/kicad/libraries/mysensors_radios.pretty)(options "")(descr ""))
 )

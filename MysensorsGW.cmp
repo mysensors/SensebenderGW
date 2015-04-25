@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-07 BZR 5579)-product   date = ons 22 apr 2015 21:23:20 CEST
+Cmp-Mod V01 Created by Cvpcb (2015-04-23 BZR 5622)-product   date = lør 25 apr 2015 20:35:36 CEST
 
 BeginCmp
 TimeStamp = /55242605;
@@ -43,20 +43,6 @@ IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
 EndCmp
 
 BeginCmp
-TimeStamp = /5537F25E;
-Reference = D1;
-ValeurCmp = Dual_DIODE;
-IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /5537F71A;
-Reference = D2;
-ValeurCmp = Dual_DIODE;
-IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering;
-EndCmp
-
-BeginCmp
 TimeStamp = /55241C11;
 Reference = IC1;
 ValeurCmp = ATMEGA1284P-A;
@@ -66,8 +52,15 @@ EndCmp
 BeginCmp
 TimeStamp = /55357958;
 Reference = P1;
-ValeurCmp = CONN_1;
+ValeurCmp = ANT;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /553B616F;
+Reference = P2;
+ValeurCmp = FTDI Header;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
 EndCmp
 
 BeginCmp
@@ -144,21 +137,21 @@ BeginCmp
 TimeStamp = /5532BD97;
 Reference = U6;
 ValeurCmp = NRF24L01;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x04;
+IdModule  = mysensors_radios:NRF24L01;
 EndCmp
 
 BeginCmp
 TimeStamp = /553419D9;
 Reference = U7;
 ValeurCmp = RFM69W;
-IdModule  = MysensorsGW:rfm69w;
+IdModule  = mysensors_radios:RFM69HW;
 EndCmp
 
 BeginCmp
 TimeStamp = /552433C5;
 Reference = X1;
 ValeurCmp = CRYSTAL_SMD;
-IdModule  = Crystals_Oscillators_SMD:Q_49U3HMS;
+IdModule  = Crystals_Oscillators_SMD:crystal_FA238-TSX3225;
 EndCmp
 
 EndListe
