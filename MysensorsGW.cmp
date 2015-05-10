@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-23 BZR 5622)-product   date = lør 25 apr 2015 20:35:36 CEST
+Cmp-Mod V01 Created by Cvpcb (2015-04-23 BZR 5622)-product   date = ons 06 maj 2015 22:05:02 CEST
 
 BeginCmp
 TimeStamp = /55242605;
@@ -8,9 +8,9 @@ IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /5524259F;
+TimeStamp = /553FDEAC;
 Reference = C2;
-ValeurCmp = C;
+ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
@@ -36,10 +36,101 @@ IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
 BeginCmp
+TimeStamp = /553C1EE3/553D47D0;
+Reference = C6;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /553C1EE3/553D474F;
+Reference = C7;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /553FE7BF;
+Reference = C8;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /553FDB35;
+Reference = C9;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /553FE5EE;
+Reference = C10;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5545249D;
+Reference = C11;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /554524DE;
+Reference = C12;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5545251A;
+Reference = C13;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55452557;
+Reference = C14;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
 TimeStamp = /5525772D;
 Reference = CON1;
 ValeurCmp = AVR-ISP-6;
 IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A7563;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A7513;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A74C2;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A7441;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
@@ -50,7 +141,7 @@ IdModule  = Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /55357958;
+TimeStamp = /553C1EE3/553EAF3C;
 Reference = P1;
 ValeurCmp = ANT;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
@@ -85,6 +176,34 @@ IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
+TimeStamp = /554A83EB;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A8397;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A8344;
+Reference = R6;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A82CE;
+Reference = R7;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
 TimeStamp = /55242130;
 Reference = RP1;
 ValeurCmp = R_PACK4;
@@ -106,10 +225,10 @@ IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /55241C61;
+TimeStamp = /553EBBAC;
 Reference = U2;
-ValeurCmp = FT232RL;
-IdModule  = Housings_SOIC:SOIC-28_7.5x17.9mm_Pitch1.27mm;
+ValeurCmp = FT230XS;
+IdModule  = Housings_SOIC:SOIC-16_7.5x10.3mm_Pitch1.27mm;
 EndCmp
 
 BeginCmp
@@ -134,23 +253,37 @@ IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
-TimeStamp = /5532BD97;
+TimeStamp = /55490A58;
 Reference = U6;
+ValeurCmp = 74LVC1G125;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /553C0760;
+Reference = U8;
+ValeurCmp = ESP8266-1;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /553C1EE3/553B5622;
+Reference = U9;
 ValeurCmp = NRF24L01;
 IdModule  = mysensors_radios:NRF24L01;
 EndCmp
 
 BeginCmp
-TimeStamp = /553419D9;
-Reference = U7;
+TimeStamp = /553C1EE3/553B55B6;
+Reference = U10;
 ValeurCmp = RFM69W;
-IdModule  = mysensors_radios:RFM69HW;
+IdModule  = mysensors_radios:RFM69HW_SMD_Handsoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /552433C5;
 Reference = X1;
-ValeurCmp = CRYSTAL_SMD;
+ValeurCmp = 16Mhz;
 IdModule  = Crystals_Oscillators_SMD:crystal_FA238-TSX3225;
 EndCmp
 

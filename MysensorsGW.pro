@@ -1,4 +1,4 @@
-update=lør 25 apr 2015 21:02:48 CEST
+update=tir 05 maj 2015 20:13:36 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,9 +25,19 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=../libraries
+LibDir=../libraries;../libraries/mysensors_symbols
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -61,13 +71,10 @@ LibName29=contrib
 LibName30=valves
 LibName31=MySensors
 LibName32=/home/thomas/Projects/kicad/libraries/MySensors
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName33=ftdi
+LibName34=mysensors_symbols/mysensors_security
+LibName35=mysensors_symbols/mysensors_regulators
+LibName36=mysensors_symbols/mysensors_radios
+LibName37=mysensors_symbols/mysensors_memories
+LibName38=mysensors_symbols/mysensors_arduino
+LibName39=mysensors_symbols/mysensors_logic
