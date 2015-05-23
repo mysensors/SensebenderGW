@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name mysensors_radios)(type KiCad)(uri /home/thomas/Projects/kicad/libraries/mysensors_radios.pretty)(options "")(descr ""))
+  (lib (name mysensors_network)(type KiCad)(uri /home/thomas/Projects/kicad/libraries/mysensors_network.pretty)(options "")(descr ""))
 )
