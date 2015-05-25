@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-09 BZR 5648)-product   date = lør 23 maj 2015 11:20:02 CEST
+Cmp-Mod V01 Created by Cvpcb (2015-05-09 BZR 5648)-product   date = man 25 maj 2015 12:33:44 CEST
 
 BeginCmp
 TimeStamp = /55242605;
@@ -36,16 +36,9 @@ IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /553C1EE3/553D47D0;
+TimeStamp = /5563591C;
 Reference = C6;
-ValeurCmp = C;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /553C1EE3/553D474F;
-Reference = C7;
-ValeurCmp = C;
+ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
@@ -134,7 +127,7 @@ IdModule  = Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /553C1EE3/553EAF3C;
+TimeStamp = /55627F44;
 Reference = P1;
 ValeurCmp = ANT;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
@@ -150,7 +143,7 @@ EndCmp
 BeginCmp
 TimeStamp = /555F8C75;
 Reference = P3;
-ValeurCmp = CONN_02X07;
+ValeurCmp = IO Connector;
 IdModule  = Pin_Headers:Pin_Header_Straight_2x07;
 EndCmp
 
@@ -162,6 +155,13 @@ IdModule  = Pin_Headers:Pin_Header_Straight_2x04;
 EndCmp
 
 BeginCmp
+TimeStamp = /55618535;
+Reference = Q1;
+ValeurCmp = FDG1024NZ;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SC-70-6;
+EndCmp
+
+BeginCmp
 TimeStamp = /5524262A;
 Reference = R1;
 ValeurCmp = 10k;
@@ -169,9 +169,16 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /556107A9;
+Reference = R2;
+ValeurCmp = 4k7;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /553574E8;
 Reference = R3;
-ValeurCmp = 10k;
+ValeurCmp = 56k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
@@ -274,10 +281,31 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /552422E3;
+TimeStamp = /5561073D;
+Reference = R18;
+ValeurCmp = 4k7;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55619AD5;
+Reference = R19;
+ValeurCmp = 4k7;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55619A65;
+Reference = R20;
+ValeurCmp = 4k7;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5562F143;
 Reference = U1;
-ValeurCmp = W25X40CLSNIG;
-IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
+ValeurCmp = ATSHA204A;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 BeginCmp
@@ -302,10 +330,10 @@ IdModule  = SMD_Packages:SOT-223;
 EndCmp
 
 BeginCmp
-TimeStamp = /5526D07D;
+TimeStamp = /55632164;
 Reference = U5;
-ValeurCmp = ATSHA204;
-IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
+ValeurCmp = W25X40CLSNIG;
+IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
 EndCmp
 
 BeginCmp
@@ -323,24 +351,31 @@ IdModule  = mysensors_network:W5100;
 EndCmp
 
 BeginCmp
-TimeStamp = /553C0760;
+TimeStamp = /55639916;
 Reference = U8;
-ValeurCmp = ESP8266-1;
+ValeurCmp = ESP8266;
 IdModule  = mysensors_network:ESP8266-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /553C1EE3/553B5622;
+TimeStamp = /556277CD;
 Reference = U9;
+ValeurCmp = RFM69HW;
+IdModule  = mysensors_radios:RFM69HW_SMD_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563411E;
+Reference = U10;
 ValeurCmp = NRF24L01;
 IdModule  = mysensors_radios:NRF24L01;
 EndCmp
 
 BeginCmp
-TimeStamp = /553C1EE3/553B55B6;
-Reference = U10;
-ValeurCmp = RFM69W;
-IdModule  = mysensors_radios:RFM69HW_SMD_Handsoldering;
+TimeStamp = /5560F4D4;
+Reference = U11;
+ValeurCmp = Si7021;
+IdModule  = Housings_DFN_QFN:DFN-6-1EP_3x3mm_Pitch0.95mm;
 EndCmp
 
 BeginCmp

@@ -1,4 +1,4 @@
-update=lør 23 maj 2015 11:31:43 CEST
+update=man 25 maj 2015 12:38:55 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,16 +59,14 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=MySensors
-LibName32=/home/thomas/Projects/kicad/libraries/MySensors
-LibName33=ftdi
-LibName34=mysensors_symbols/mysensors_security
-LibName35=mysensors_symbols/mysensors_regulators
-LibName36=mysensors_symbols/mysensors_radios
-LibName37=mysensors_symbols/mysensors_memories
-LibName38=mysensors_symbols/mysensors_arduino
-LibName39=mysensors_symbols/mysensors_logic
-LibName40=mysensors_symbols/mysensors_network
+LibName31=ftdi
+LibName32=mysensors_symbols/mysensors_security
+LibName33=mysensors_symbols/mysensors_regulators
+LibName34=mysensors_symbols/mysensors_radios
+LibName35=mysensors_symbols/mysensors_memories
+LibName36=mysensors_symbols/mysensors_arduino
+LibName37=mysensors_symbols/mysensors_logic
+LibName38=mysensors_symbols/mysensors_network
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
