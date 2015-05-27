@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-09 BZR 5648)-product   date = man 25 maj 2015 12:33:44 CEST
+Cmp-Mod V01 Created by Cvpcb (2015-05-09 BZR 5648)-product   date = ons 27 maj 2015 19:26:42 CEST
 
 BeginCmp
 TimeStamp = /55242605;
@@ -38,6 +38,13 @@ EndCmp
 BeginCmp
 TimeStamp = /5563591C;
 Reference = C6;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563516B;
+Reference = C7;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
@@ -113,6 +120,20 @@ IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /556612CD;
+Reference = C18;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55660155;
+Reference = C19;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /5525772D;
 Reference = CON1;
 ValeurCmp = AVR-ISP-6;
@@ -144,14 +165,7 @@ BeginCmp
 TimeStamp = /555F8C75;
 Reference = P3;
 ValeurCmp = IO Connector;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x07;
-EndCmp
-
-BeginCmp
-TimeStamp = /55604B85;
-Reference = P4;
-ValeurCmp = MMI Connector;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x04;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x12;
 EndCmp
 
 BeginCmp
@@ -221,34 +235,6 @@ BeginCmp
 TimeStamp = /554F7A2B;
 Reference = R9;
 ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /554A83EB;
-Reference = R10;
-ValeurCmp = R;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /554A8397;
-Reference = R11;
-ValeurCmp = R;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /554A8344;
-Reference = R12;
-ValeurCmp = R;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /554A82CE;
-Reference = R13;
-ValeurCmp = R;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
@@ -381,7 +367,7 @@ EndCmp
 BeginCmp
 TimeStamp = /552433C5;
 Reference = X1;
-ValeurCmp = 16Mhz;
+ValeurCmp = 20Mhz;
 IdModule  = Crystals_Oscillators_SMD:crystal_FA238-TSX3225;
 EndCmp
 
