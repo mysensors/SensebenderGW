@@ -757,7 +757,7 @@ L R R17
 U 1 1 5558EE2A
 P 3550 1050
 F 0 "R17" V 3630 1050 50  0000 C CNN
-F 1 "10k" V 3550 1050 50  0000 C CNN
+F 1 "56k" V 3550 1050 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 3480 1050 30  0001 C CNN
 F 3 "" H 3550 1050 30  0000 C CNN
 	1    3550 1050
@@ -1917,5 +1917,5 @@ Wire Notes Line
 Wire Notes Line
 	6400 7600 6400 6200
 Text Notes 3900 7550 0    60   ~ 0
-Onboard sensor
+Onboard sensor with I2C level shifting
 $EndSCHEMATC
