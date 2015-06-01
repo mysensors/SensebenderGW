@@ -1149,12 +1149,10 @@ Text Label 6750 5550 0    60   ~ 0
 MOSI
 Text Label 6750 5650 0    60   ~ 0
 SCK
-Text Label 7750 5550 0    60   ~ 0
-D2
 Text Label 7750 5450 0    60   ~ 0
-NRF_CSN
+D0
 Text Label 7750 5650 0    60   ~ 0
-NRF_CE
+D1
 $Comp
 L C C6
 U 1 1 5563591C
@@ -1718,12 +1716,6 @@ Wire Wire Line
 Wire Wire Line
 	6950 5650 6750 5650
 Wire Wire Line
-	7750 5450 8150 5450
-Wire Wire Line
-	7750 5550 8150 5550
-Wire Wire Line
-	7750 5650 8150 5650
-Wire Wire Line
 	7200 5200 7350 5200
 Wire Wire Line
 	6600 5250 6600 5200
@@ -1918,4 +1910,35 @@ Wire Notes Line
 	6400 7600 6400 6200
 Text Notes 3900 7550 0    60   ~ 0
 Onboard sensor with I2C level shifting
+Text Label 4950 2350 0    60   ~ 0
+D3
+Text Label 3350 1800 0    60   ~ 0
+D4
+$Comp
+L JUMPER3 JP1
+U 1 1 55681C0E
+P 8150 4900
+F 0 "JP1" H 8200 4800 50  0000 L CNN
+F 1 "JUMPER3" H 8150 5000 50  0000 C BNN
+F 2 "mysensors_miscellaneous:3_pin_solder_jumper_smd" H 8150 4900 60  0001 C CNN
+F 3 "" H 8150 4900 60  0000 C CNN
+	1    8150 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8050 4900 7800 4900
+Text Label 7850 4900 0    60   ~ 0
+D2
+Wire Wire Line
+	7750 5450 7900 5450
+Wire Wire Line
+	7750 5650 7900 5650
+Wire Wire Line
+	7750 5550 8150 5550
+Wire Wire Line
+	8150 5550 8150 5150
+Wire Wire Line
+	7900 3800 8150 3800
+Wire Wire Line
+	8150 3800 8150 4650
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-09 BZR 5648)-product   date = ons 27 maj 2015 19:26:42 CEST
+Cmp-Mod V01 Created by Cvpcb (2015-05-09 BZR 5648)-product   date = søn 31 maj 2015 22:27:54 CEST
 
 BeginCmp
 TimeStamp = /55242605;
@@ -148,6 +148,13 @@ IdModule  = Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm;
 EndCmp
 
 BeginCmp
+TimeStamp = /55681C0E;
+Reference = JP1;
+ValeurCmp = JUMPER3;
+IdModule  = mysensors_miscellaneous:3_pin_solder_jumper_smd;
+EndCmp
+
+BeginCmp
 TimeStamp = /55627F44;
 Reference = P1;
 ValeurCmp = ANT;
@@ -262,7 +269,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5558EE2A;
 Reference = R17;
-ValeurCmp = 10k;
+ValeurCmp = 56k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
