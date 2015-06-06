@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-09 BZR 5648)-product   date = søn 31 maj 2015 22:27:54 CEST
+Cmp-Mod V01 Created by Cvpcb (2015-05-09 BZR 5648)-product   date = tor 04 jun 2015 23:09:06 CEST
 
 BeginCmp
 TimeStamp = /55242605;
@@ -134,6 +134,13 @@ IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /5570C079;
+Reference = C20;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /5525772D;
 Reference = CON1;
 ValeurCmp = AVR-ISP-6;
@@ -176,13 +183,6 @@ IdModule  = Pin_Headers:Pin_Header_Straight_2x12;
 EndCmp
 
 BeginCmp
-TimeStamp = /55618535;
-Reference = Q1;
-ValeurCmp = FDG1024NZ;
-IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SC-70-6;
-EndCmp
-
-BeginCmp
 TimeStamp = /5524262A;
 Reference = R1;
 ValeurCmp = 10k;
@@ -190,72 +190,9 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /556107A9;
-Reference = R2;
-ValeurCmp = 4k7;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /553574E8;
 Reference = R3;
 ValeurCmp = 56k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /554F6801;
-Reference = R4;
-ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /554F6864;
-Reference = R5;
-ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /554F791A;
-Reference = R6;
-ValeurCmp = 1K;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /554F7978;
-Reference = R7;
-ValeurCmp = 1K;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /554F79CF;
-Reference = R8;
-ValeurCmp = 1K;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /554F7A2B;
-Reference = R9;
-ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /55511DF6;
-Reference = R14;
-ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /55521115;
-Reference = R15;
-ValeurCmp = 1k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
@@ -270,27 +207,6 @@ BeginCmp
 TimeStamp = /5558EE2A;
 Reference = R17;
 ValeurCmp = 56k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5561073D;
-Reference = R18;
-ValeurCmp = 4k7;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /55619AD5;
-Reference = R19;
-ValeurCmp = 4k7;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /55619A65;
-Reference = R20;
-ValeurCmp = 4k7;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
@@ -369,6 +285,20 @@ TimeStamp = /5560F4D4;
 Reference = U11;
 ValeurCmp = Si7021;
 IdModule  = Housings_DFN_QFN:DFN-6-1EP_3x3mm_Pitch0.95mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5570C4DE;
+Reference = U12;
+ValeurCmp = MAX3002E;
+IdModule  = Housings_SSOP:SSOP-20_4.4x6.5mm_Pitch0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5570C234;
+Reference = U13;
+ValeurCmp = MAX3002E;
+IdModule  = Housings_SSOP:SSOP-20_4.4x6.5mm_Pitch0.65mm;
 EndCmp
 
 BeginCmp
