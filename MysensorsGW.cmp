@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-09 BZR 5648)-product   date = tor 04 jun 2015 23:09:06 CEST
+Cmp-Mod V01 Created by Cvpcb (2015-05-09 BZR 5648)-product   date = man 08 jun 2015 19:36:31 CEST
 
 BeginCmp
 TimeStamp = /55242605;
@@ -291,14 +291,14 @@ BeginCmp
 TimeStamp = /5570C4DE;
 Reference = U12;
 ValeurCmp = MAX3002E;
-IdModule  = Housings_SSOP:SSOP-20_4.4x6.5mm_Pitch0.65mm;
+IdModule  = Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /5570C234;
+TimeStamp = /5575DD73;
 Reference = U13;
-ValeurCmp = MAX3002E;
-IdModule  = Housings_SSOP:SSOP-20_4.4x6.5mm_Pitch0.65mm;
+ValeurCmp = MAX3373E;
+IdModule  = Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm;
 EndCmp
 
 BeginCmp
