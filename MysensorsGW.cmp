@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-09 BZR 5648)-product   date = man 08 jun 2015 19:36:31 CEST
+Cmp-Mod V01 Created by Cvpcb (2015-05-09 BZR 5648)-product   date = fre 19 jun 2015 22:00:12 CEST
 
 BeginCmp
 TimeStamp = /55242605;
@@ -141,10 +141,24 @@ IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /55833140;
+Reference = C21;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /5525772D;
 Reference = CON1;
 ValeurCmp = AVR-ISP-6;
 IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /55832B64;
+Reference = FB1;
+ValeurCmp = FILTER;
+IdModule  = Choke_SMD:Choke_SMD_1206_Standard;
 EndCmp
 
 BeginCmp
@@ -162,6 +176,20 @@ IdModule  = mysensors_miscellaneous:3_pin_solder_jumper_smd;
 EndCmp
 
 BeginCmp
+TimeStamp = /55847417;
+Reference = LED1;
+ValeurCmp = WS2812B;
+IdModule  = mysensors_miscellaneous:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = /55847AFA;
+Reference = LED2;
+ValeurCmp = WS2812B;
+IdModule  = mysensors_miscellaneous:WS2812B;
+EndCmp
+
+BeginCmp
 TimeStamp = /55627F44;
 Reference = P1;
 ValeurCmp = ANT;
@@ -169,17 +197,10 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
 EndCmp
 
 BeginCmp
-TimeStamp = /553B616F;
-Reference = P2;
-ValeurCmp = FTDI Header;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
-EndCmp
-
-BeginCmp
 TimeStamp = /555F8C75;
 Reference = P3;
 ValeurCmp = IO Connector;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x12;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x14;
 EndCmp
 
 BeginCmp
@@ -190,9 +211,23 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /55830EA4;
+Reference = R2;
+ValeurCmp = 27R;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /553574E8;
 Reference = R3;
 ValeurCmp = 56k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55830EED;
+Reference = R4;
+ValeurCmp = 27R;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
@@ -228,7 +263,7 @@ BeginCmp
 TimeStamp = /55241CD4;
 Reference = U3;
 ValeurCmp = MICRO-B_USB;
-IdModule  = Connect:USB_Micro-B;
+IdModule  = mysensors_miscellaneous:Micro_USB;
 EndCmp
 
 BeginCmp
@@ -295,9 +330,9 @@ IdModule  = Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /5575DD73;
+TimeStamp = /55760225;
 Reference = U13;
-ValeurCmp = MAX3373E;
+ValeurCmp = MAX3378E;
 IdModule  = Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm;
 EndCmp
 
