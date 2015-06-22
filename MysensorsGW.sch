@@ -1721,8 +1721,6 @@ Text Label 5300 4450 0    60   ~ 0
 CS_EEP
 Wire Wire Line
 	4200 4450 4400 4450
-Text Label 4950 2100 0    60   ~ 0
-D1
 $Comp
 L C C20
 U 1 1 5570C079
