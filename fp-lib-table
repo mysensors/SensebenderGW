@@ -1,5 +1,0 @@
-(fp_lib_table
-  (lib (name mysensors_radios)(type KiCad)(uri "$(MYSLOCAL)/mysensors_radios.pretty")(options "")(descr ""))
-  (lib (name mysensors_network)(type KiCad)(uri "$(MYSLOCAL)/mysensors_network.pretty")(options "")(descr ""))
-  (lib (name mysensors_miscellaneous)(type KiCad)(uri "$(MYSLOCAL)/mysensors_miscellaneous.pretty")(options "")(descr ""))
-)

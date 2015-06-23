@@ -1,4 +1,20 @@
-Cmp-Mod V01 Genere par PcbNew le søn 21 jun 2015 12:30:57 CEST
+Cmp-Mod V01 Genere par PcbNew le man 22 jun 2015 22:41:44 CEST
+
+BeginCmp
+TimeStamp = 5586C200
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_3-5mm;
+IdModule  = Mounting_Holes:MountingHole_3-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 557D4F7A
+Path = /555F8C75
+Reference = P3;
+ValeurCmp = IO Connector;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x11;
+EndCmp
 
 BeginCmp
 TimeStamp = 55869203
@@ -22,14 +38,6 @@ Path = /556277CD
 Reference = U9;
 ValeurCmp = RFM69HW;
 IdModule  = mysensors_radios:RFM69HW_SMD_Handsoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = 5581B2B6
-Path = /5550F856
-Reference = U7;
-ValeurCmp = W5100;
-IdModule  = mysensors_network:W5100;
 EndCmp
 
 BeginCmp
@@ -164,7 +172,7 @@ BeginCmp
 TimeStamp = 553D4645
 Path = /5563591C
 Reference = C6;
-ValeurCmp = 100nF;
+ValeurCmp = 10uF;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
@@ -172,7 +180,7 @@ BeginCmp
 TimeStamp = 553D464B
 Path = /5563516B
 Reference = C7;
-ValeurCmp = 100nF;
+ValeurCmp = 10uF;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
@@ -377,14 +385,6 @@ IdModule  = Choke_SMD:Choke_SMD_1206_Standard;
 EndCmp
 
 BeginCmp
-TimeStamp = 5584B47E
-Path = /5563411E
-Reference = U10;
-ValeurCmp = NRF24L01;
-IdModule  = mysensors_radios:NRF24L01;
-EndCmp
-
-BeginCmp
 TimeStamp = 55852DC3
 Path = /55627F44
 Reference = P1;
@@ -409,11 +409,35 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = 557D4F7A
-Path = /555F8C75
-Reference = P3;
-ValeurCmp = IO Connector;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x11;
+TimeStamp = 5588640F
+Path = /5586D5FB
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 55886415
+Path = /5586D67A
+Reference = R6;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 55887162
+Path = /5563411E
+Reference = U10;
+ValeurCmp = NRF24L01;
+IdModule  = mysensors_radios:NRF24L01;
+EndCmp
+
+BeginCmp
+TimeStamp = 5581B2B6
+Path = /5550F856
+Reference = U7;
+ValeurCmp = W5100;
+IdModule  = mysensors_network:W5100;
 EndCmp
 
 EndListe
