@@ -756,7 +756,7 @@ A5
 Text Label 10100 4000 0    60   ~ 0
 A4
 Text Label 10700 4000 0    60   ~ 0
-A3
+A2
 Text Label 10100 4100 0    60   ~ 0
 A1
 Text Label 10700 4100 0    60   ~ 0
@@ -1082,7 +1082,7 @@ A1
 Text Label 3600 2850 0    60   ~ 0
 A3
 Text Label 650  1150 0    60   ~ 0
-A2
+A3
 Text Label 10100 3900 0    60   ~ 0
 A6
 Text Label 6250 1100 0    60   ~ 0
@@ -1101,15 +1101,15 @@ F 3 "" H 7350 3800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 10100 3600 0    60   ~ 0
-D12
+D6
 Text Label 10700 3600 0    60   ~ 0
-D11
+D5
 Text Label 10100 3700 0    60   ~ 0
 D10
 Text Label 10700 3700 0    60   ~ 0
 D9
 Text Label 10700 3800 0    60   ~ 0
-D5
+D11
 Text Label 10100 3500 0    60   ~ 0
 D18
 Text Label 10700 3500 0    60   ~ 0
@@ -1861,10 +1861,6 @@ Text Label 10200 4200 2    60   ~ 0
 SDA_3v3
 Text Label 10200 4300 2    60   ~ 0
 SCL_3v3
-Text Label 10700 4200 0    60   ~ 0
-WIFI_RX
-Text Label 10700 4300 0    60   ~ 0
-WIFI_TX
 Wire Wire Line
 	9400 700  10200 700 
 Wire Wire Line
@@ -1983,7 +1979,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 4350 8600 4350
 Text Label 8650 4350 0    60   ~ 0
-D15
+D16
 $Comp
 L PWR_FLAG #FLG053
 U 1 1 55869689
@@ -2010,7 +2006,7 @@ Wire Wire Line
 	9700 6100 9700 6150
 Connection ~ 9700 6100
 Text Label 10100 3800 0    60   ~ 0
-D6
+D12
 Wire Wire Line
 	10100 4400 10100 4450
 Wire Wire Line
@@ -2057,7 +2053,7 @@ $EndComp
 Wire Wire Line
 	9300 3550 9300 3600
 Text Label 8650 4500 0    60   ~ 0
-D16
+D15
 NoConn ~ 5250 4650
 NoConn ~ 4400 4650
 NoConn ~ 3900 3250
@@ -2733,7 +2729,11 @@ F1 54 95 14 9F EF 69 AF 2F E5 68 0C 80 4D C9 83 B8 C7 32 D7 FA 45 6F 95 BF E8 F3
 88 3B 00 28 44 DC 01 40 21 E2 0E 00 0A 11 77 00 50 88 B8 03 80 42 C4 1D 00 14 22 EE 00 A0 10 71 
 07 00 85 88 3B 00 28 44 DC 01 40 21 E2 0E 00 0A 11 77 00 50 88 B8 03 80 42 C4 1D 00 14 22 EE 00 
 A0 10 71 07 00 85 88 3B 00 28 F4 2F 6E 0E 73 66 69 F5 31 42 00 00 00 00 49 45 4E 44 AE 42 60 82 
-78 
+FF 
 EndData
 $EndBitmap
+Text Label 10700 4300 0    60   ~ 0
+WIFI_TX
+Text Label 10700 4200 0    60   ~ 0
+WIFI_RX
 $EndSCHEMATC
