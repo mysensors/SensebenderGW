@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-09 BZR 5648)-product   date = man 13 jul 2015 12:13:11 CEST
+Cmp-Mod V01 Created by Cvpcb (2015-05-09 BZR 5648)-product   date = man 13 jul 2015 23:38:19 CEST
 
 BeginCmp
 TimeStamp = /556612CD;
@@ -31,7 +31,7 @@ EndCmp
 BeginCmp
 TimeStamp = /55A19221;
 Reference = C5;
-ValeurCmp = C;
+ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
@@ -64,9 +64,9 @@ IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /5570C079;
+TimeStamp = /55A42FB9;
 Reference = C10;
-ValeurCmp = C;
+ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
@@ -80,7 +80,7 @@ EndCmp
 BeginCmp
 TimeStamp = /555A2D7A;
 Reference = C12;
-ValeurCmp = 22uF;
+ValeurCmp = 10uF;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
@@ -94,7 +94,7 @@ EndCmp
 BeginCmp
 TimeStamp = /55833140;
 Reference = C14;
-ValeurCmp = C;
+ValeurCmp = 1nF;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
@@ -108,14 +108,14 @@ EndCmp
 BeginCmp
 TimeStamp = /555A2DE3;
 Reference = C16;
-ValeurCmp = 22uF;
+ValeurCmp = 10uF;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /55A18DAD;
 Reference = C17;
-ValeurCmp = C;
+ValeurCmp = 100nf;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
@@ -136,7 +136,21 @@ EndCmp
 BeginCmp
 TimeStamp = /55A2E77F;
 Reference = C20;
-ValeurCmp = CP;
+ValeurCmp = 10u;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A3A270;
+Reference = C21;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A4073A;
+Reference = C22;
+ValeurCmp = 1nF;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
@@ -164,14 +178,14 @@ EndCmp
 BeginCmp
 TimeStamp = /55832B64;
 Reference = FB1;
-ValeurCmp = FILTER;
+ValeurCmp = 470R EMI;
 IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /55A19572;
+TimeStamp = /55A4194E;
 Reference = FB2;
-ValeurCmp = FILTER;
+ValeurCmp = 470R EMI;
 IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
@@ -186,7 +200,7 @@ BeginCmp
 TimeStamp = /555F8C75;
 Reference = P2;
 ValeurCmp = IO Connector;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x10;
+IdModule  = mysensors_connectors:MYSX_1.5;
 EndCmp
 
 BeginCmp
