@@ -1,4 +1,4 @@
-update=ons 08 jul 2015 21:55:47 CEST
+update=man 13 jul 2015 12:49:13 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -70,6 +70,8 @@ LibName37=mysensors_arduino
 LibName38=mysensors_logic
 LibName39=mysensors_network
 LibName40=ws2812b
+LibName41=mysensors_mcu
+LibName42=mysensors_connectors
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
