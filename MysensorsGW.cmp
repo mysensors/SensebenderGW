@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-09 BZR 5648)-product   date = man 13 jul 2015 23:38:19 CEST
+Cmp-Mod V01 Created by Cvpcb (2015-05-09 BZR 5648)-product   date = tor 16 jul 2015 22:14:14 CEST
 
 BeginCmp
 TimeStamp = /556612CD;
@@ -113,9 +113,9 @@ IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /55A18DAD;
+TimeStamp = /55A436A7;
 Reference = C17;
-ValeurCmp = 100nf;
+ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
@@ -136,7 +136,7 @@ EndCmp
 BeginCmp
 TimeStamp = /55A2E77F;
 Reference = C20;
-ValeurCmp = 10u;
+ValeurCmp = 10uF;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
@@ -151,6 +151,13 @@ BeginCmp
 TimeStamp = /55A4073A;
 Reference = C22;
 ValeurCmp = 1nF;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A82881;
+Reference = C23;
+ValeurCmp = 10nF;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
@@ -253,6 +260,13 @@ IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
+TimeStamp = /55A81D84;
+Reference = R3;
+ValeurCmp = 100k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
 TimeStamp = /55869548;
 Reference = R4;
 ValeurCmp = 220;
@@ -278,6 +292,20 @@ TimeStamp = /55830EED;
 Reference = R7;
 ValeurCmp = 27R;
 IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A81FF3;
+Reference = R8;
+ValeurCmp = 39R;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A811E7;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = Buttons_Switches_SMD:SW_SPST_PTS645;
 EndCmp
 
 BeginCmp
