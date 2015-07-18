@@ -1,4 +1,4 @@
-update=lør 18 jul 2015 09:37:39 CEST
+update=lør 18 jul 2015 17:11:52 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -26,6 +26,16 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=$(MYSLOCAL)/mysensors_symbols
@@ -70,16 +80,5 @@ LibName37=mysensors_memories
 LibName38=mysensors_arduino
 LibName39=mysensors_logic
 LibName40=mysensors_network
-LibName41=ws2812b
-LibName42=mysensors_mcu
-LibName43=mysensors_connectors
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName41=mysensors_mcu
+LibName42=mysensors_connectors

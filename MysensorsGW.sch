@@ -39,7 +39,6 @@ LIBS:mysensors_memories
 LIBS:mysensors_arduino
 LIBS:mysensors_logic
 LIBS:mysensors_network
-LIBS:ws2812b
 LIBS:mysensors_mcu
 LIBS:mysensors_connectors
 LIBS:MysensorsGW-cache
@@ -112,7 +111,7 @@ F 3 "" H 6400 1300 60  0000 C CNN
 	1    6400 1300
 	1    0    0    -1  
 $EndComp
-Text Label 4850 1050 0    60   ~ 0
+Text Label 5250 1050 2    60   ~ 0
 CS_EEP
 $Comp
 L CRYSTAL X1
@@ -166,23 +165,23 @@ $EndComp
 $Comp
 L GND #PWR08
 U 1 1 553C0BA6
-P 8000 1600
-F 0 "#PWR08" H 8000 1350 50  0001 C CNN
-F 1 "GND" H 8000 1450 50  0000 C CNN
-F 2 "" H 8000 1600 60  0000 C CNN
-F 3 "" H 8000 1600 60  0000 C CNN
-	1    8000 1600
+P 7850 1600
+F 0 "#PWR08" H 7850 1350 50  0001 C CNN
+F 1 "GND" H 7850 1450 50  0000 C CNN
+F 2 "" H 7850 1600 60  0000 C CNN
+F 3 "" H 7850 1600 60  0000 C CNN
+	1    7850 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR09
 U 1 1 553E9A81
-P 8000 900
-F 0 "#PWR09" H 8000 750 50  0001 C CNN
-F 1 "+3.3V" H 8000 1040 50  0000 C CNN
-F 2 "" H 8000 900 60  0000 C CNN
-F 3 "" H 8000 900 60  0000 C CNN
-	1    8000 900 
+P 7850 900
+F 0 "#PWR09" H 7850 750 50  0001 C CNN
+F 1 "+3.3V" H 7850 1040 50  0000 C CNN
+F 2 "" H 7850 900 60  0000 C CNN
+F 3 "" H 7850 900 60  0000 C CNN
+	1    7850 900 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -290,13 +289,13 @@ F 3 "" H 9900 1700 60  0000 C CNN
 	1    9900 1700
 	1    0    0    -1  
 $EndComp
-Text Label 9100 1350 0    60   ~ 0
+Text Label 9450 1350 2    60   ~ 0
 NET_MOSI
-Text Label 9100 1450 0    60   ~ 0
+Text Label 9450 1450 2    60   ~ 0
 NET_SCK
-Text Label 8550 1150 0    60   ~ 0
+Text Label 8350 1150 0    60   ~ 0
 NET_RST
-Text Label 10400 1450 0    60   ~ 0
+Text Label 10350 1450 0    60   ~ 0
 NET_RST
 $Comp
 L C C6
@@ -314,12 +313,12 @@ $EndComp
 $Comp
 L GND #PWR014
 U 1 1 5551FDC5
-P 9350 950
-F 0 "#PWR014" H 9350 700 50  0001 C CNN
-F 1 "GND" H 9350 800 50  0000 C CNN
-F 2 "" H 9350 950 60  0000 C CNN
-F 3 "" H 9350 950 60  0000 C CNN
-	1    9350 950 
+P 9350 900
+F 0 "#PWR014" H 9350 650 50  0001 C CNN
+F 1 "GND" H 9350 750 50  0000 C CNN
+F 2 "" H 9350 900 60  0000 C CNN
+F 3 "" H 9350 900 60  0000 C CNN
+	1    9350 900 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -542,12 +541,12 @@ $EndComp
 $Comp
 L ESP8266 U6
 U 1 1 55639916
-P 8000 1250
-F 0 "U6" H 8100 1450 60  0000 C CNN
-F 1 "ESP8266" H 8250 1050 60  0000 C CNN
-F 2 "mysensors_network:ESP8266-1" H 8000 1400 60  0001 C CNN
-F 3 "" H 8000 1400 60  0000 C CNN
-	1    8000 1250
+P 7850 1250
+F 0 "U6" H 7950 1450 60  0000 C CNN
+F 1 "ESP8266" H 8100 1050 60  0000 C CNN
+F 2 "mysensors_network:ESP8266-1" H 7850 1400 60  0001 C CNN
+F 3 "" H 7850 1400 60  0000 C CNN
+	1    7850 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -596,11 +595,11 @@ F 3 "" H 7900 5500 60  0000 C CNN
 	1    7900 5500
 	1    0    0    -1  
 $EndComp
-Text Label 7300 5000 0    60   ~ 0
+Text Label 7500 5000 2    60   ~ 0
 MISO
-Text Label 7300 5100 0    60   ~ 0
+Text Label 7500 5100 2    60   ~ 0
 MOSI
-Text Label 7300 5200 0    60   ~ 0
+Text Label 7500 5200 2    60   ~ 0
 SCK
 Text Label 8300 5000 0    60   ~ 0
 CS_NRF
@@ -630,21 +629,21 @@ F 3 "" H 7150 4800 60  0000 C CNN
 	1    7150 4800
 	1    0    0    -1  
 $EndComp
-Text Label 5000 1150 0    60   ~ 0
+Text Label 5250 1150 2    60   ~ 0
 MISO
-Text Label 5000 1250 0    60   ~ 0
+Text Label 5250 1250 2    60   ~ 0
 MOSI
-Text Label 5000 1350 0    60   ~ 0
+Text Label 5250 1350 2    60   ~ 0
 SCK
 Text Notes 4700 700  0    60   ~ 0
 EEPROM\n
-Text Label 7000 3500 0    60   ~ 0
+Text Label 7350 3500 2    60   ~ 0
 MOSI
-Text Label 7000 3600 0    60   ~ 0
+Text Label 7350 3600 2    60   ~ 0
 MISO
-Text Label 7000 3700 0    60   ~ 0
+Text Label 7350 3700 2    60   ~ 0
 SCK
-Text Label 7000 3400 0    60   ~ 0
+Text Label 7350 3400 2    60   ~ 0
 CS_RFM
 $Comp
 L CP C9
@@ -694,9 +693,9 @@ F 3 "" H 10350 2800 60  0000 C CNN
 $EndComp
 Text Label 650  1150 0    60   ~ 0
 SECURITY
-Text Label 6950 1250 0    60   ~ 0
+Text Label 7400 1250 2    60   ~ 0
 NET_MOSI
-Text Label 6950 1150 0    60   ~ 0
+Text Label 7400 1150 2    60   ~ 0
 NET_MISO
 $Comp
 L RFM69HW U7
@@ -754,12 +753,12 @@ Onboard sensors
 $Comp
 L GND #PWR029
 U 1 1 5570C22C
-P 8500 900
-F 0 "#PWR029" H 8500 650 50  0001 C CNN
-F 1 "GND" H 8500 750 50  0000 C CNN
-F 2 "" H 8500 900 60  0000 C CNN
-F 3 "" H 8500 900 60  0000 C CNN
-	1    8500 900 
+P 8350 900
+F 0 "#PWR029" H 8350 650 50  0001 C CNN
+F 1 "GND" H 8350 750 50  0000 C CNN
+F 2 "" H 8350 900 60  0000 C CNN
+F 3 "" H 8350 900 60  0000 C CNN
+	1    8350 900 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -900,9 +899,7 @@ F 3 "" H 5600 6350 60  0000 C CNN
 	1    5600 6350
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8500 1250
-NoConn ~ 8500 1350
-NoConn ~ 7550 1350
+NoConn ~ 8350 1350
 NoConn ~ 8450 3450
 NoConn ~ 8450 3550
 NoConn ~ 8450 3650
@@ -1565,7 +1562,7 @@ F1 54 95 14 9F EF 69 AF 2F E5 68 0C 80 4D C9 83 B8 C7 32 D7 FA 45 6F 95 BF E8 F3
 88 3B 00 28 44 DC 01 40 21 E2 0E 00 0A 11 77 00 50 88 B8 03 80 42 C4 1D 00 14 22 EE 00 A0 10 71 
 07 00 85 88 3B 00 28 44 DC 01 40 21 E2 0E 00 0A 11 77 00 50 88 B8 03 80 42 C4 1D 00 14 22 EE 00 
 A0 10 71 07 00 85 88 3B 00 28 F4 2F 6E 0E 73 66 69 F5 31 42 00 00 00 00 49 45 4E 44 AE 42 60 82 
-78 
+40 
 EndData
 $EndBitmap
 Text Label 10250 3400 0    60   ~ 0
@@ -1634,9 +1631,9 @@ Text Label 1850 4000 2    60   ~ 0
 NET_SCK
 Text Label 1850 4100 2    60   ~ 0
 NET_SS
-Text Label 9100 1250 0    60   ~ 0
+Text Label 9450 1250 2    60   ~ 0
 NET_MISO
-Text Label 9100 1150 0    60   ~ 0
+Text Label 9450 1150 2    60   ~ 0
 NET_SS
 Text Notes 8400 700  0    60   ~ 0
 IEEE 802.xx network
@@ -1838,20 +1835,6 @@ CE_NRF
 Text Label 3400 5200 0    60   ~ 0
 CS_EEP
 $Comp
-L ATSAMD21J U2
-U 1 1 55A33BB0
-P 2550 3950
-F 0 "U2" H 3050 5450 60  0000 C CNN
-F 1 "ATSAMD21J" V 2550 3750 60  0000 C CNN
-F 2 "Housings_QFP:TQFP-64_10x10mm_Pitch0.5mm" H 1750 3650 60  0001 C CNN
-F 3 "http://www.atmel.com/images/atmel-42181-sam-d21_datasheet.pdf" H 1750 3650 60  0001 C CNN
-F 4 "mouser" H 2550 3950 60  0001 C CNN "Supplier1"
-F 5 "556-ATSAMD21J18A-AU" H 2550 3950 60  0001 C CNN "Supplier1 part"
-F 6 "Atmel" H 2550 3950 60  0001 C CNN "Vendor"
-	1    2550 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR042
 U 1 1 55A38BA7
 P 2550 5900
@@ -2000,8 +1983,6 @@ $EndComp
 Text Label 1850 3700 2    60   ~ 0
 NET_RST
 NoConn ~ 1850 3600
-NoConn ~ 1850 3500
-NoConn ~ 1850 3400
 NoConn ~ 1850 3300
 NoConn ~ 1850 3000
 NoConn ~ 1850 4300
@@ -2061,14 +2042,14 @@ $EndComp
 $Comp
 L C C10
 U 1 1 55A42FB9
-P 8300 900
-F 0 "C10" V 8250 950 50  0000 L CNN
-F 1 "100nF" V 8150 800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8338 750 30  0001 C CNN
-F 3 "" H 8300 900 60  0000 C CNN
-F 4 "mouser" H 1200 3950 60  0001 C CNN "Supplier1"
-F 5 "81-GRM39X104K16" V 8300 900 60  0001 C CNN "Supplier1 part"
-	1    8300 900 
+P 8150 900
+F 0 "C10" V 8100 950 50  0000 L CNN
+F 1 "100nF" V 8000 800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8188 750 30  0001 C CNN
+F 3 "" H 8150 900 60  0000 C CNN
+F 4 "mouser" H 1050 3950 60  0001 C CNN "Supplier1"
+F 5 "81-GRM39X104K16" V 8150 900 60  0001 C CNN "Supplier1 part"
+	1    8150 900 
 	0    1    1    0   
 $EndComp
 $Comp
@@ -2105,8 +2086,6 @@ Wire Wire Line
 	6400 800  6400 1300
 Wire Wire Line
 	6350 1050 6400 1050
-Wire Wire Line
-	4800 1050 5250 1050
 Connection ~ 2050 850 
 Connection ~ 2300 850 
 Connection ~ 2050 1150
@@ -2119,10 +2098,6 @@ Wire Wire Line
 Connection ~ 2200 850 
 Wire Notes Line
 	6750 550  6750 1950
-Wire Wire Line
-	8500 1150 8850 1150
-Wire Wire Line
-	9350 950  9350 900 
 Wire Wire Line
 	9350 900  9500 900 
 Wire Wire Line
@@ -2219,27 +2194,13 @@ Connection ~ 6400 1200
 Wire Wire Line
 	5800 1550 5800 1600
 Wire Wire Line
-	5000 1150 5250 1150
-Wire Wire Line
-	5000 1250 5250 1250
-Wire Wire Line
-	5000 1350 5250 1350
-Wire Wire Line
 	5800 750  5800 850 
 Connection ~ 5800 800 
 Wire Wire Line
 	6200 800  6400 800 
 Connection ~ 6400 1050
-Wire Wire Line
-	10350 1450 10850 1450
 Wire Notes Line
 	11050 1950 11050 550 
-Wire Wire Line
-	9050 1150 9450 1150
-Wire Wire Line
-	9450 1350 9100 1350
-Wire Wire Line
-	9450 1450 9100 1450
 Wire Wire Line
 	9800 900  9900 900 
 Wire Wire Line
@@ -2252,23 +2213,13 @@ Wire Notes Line
 Wire Notes Line
 	11050 550  6750 550 
 Wire Wire Line
-	8000 1600 8000 1550
+	7850 1600 7850 1550
 Wire Wire Line
-	8000 900  8000 950 
-Wire Wire Line
-	6950 1150 7550 1150
-Wire Wire Line
-	7550 1250 6950 1250
+	7850 900  7850 950 
 Wire Wire Line
 	7900 5500 7900 5450
 Wire Wire Line
 	7900 4750 7900 4700
-Wire Wire Line
-	7500 5000 7300 5000
-Wire Wire Line
-	7500 5100 7300 5100
-Wire Wire Line
-	7500 5200 7300 5200
 Wire Wire Line
 	7750 4750 7900 4750
 Wire Wire Line
@@ -2283,14 +2234,6 @@ Wire Notes Line
 	6650 1750 4600 1750
 Wire Notes Line
 	4600 1750 4600 550 
-Wire Wire Line
-	7000 3500 7350 3500
-Wire Wire Line
-	7350 3700 7000 3700
-Wire Wire Line
-	7350 3600 7000 3600
-Wire Wire Line
-	7350 3400 7000 3400
 Wire Wire Line
 	7900 2950 7950 2950
 Connection ~ 7900 2950
@@ -2344,17 +2287,9 @@ Wire Notes Line
 Wire Notes Line
 	11050 2450 9000 2450
 Wire Wire Line
-	8300 5000 8450 5000
+	8000 900  7850 900 
 Wire Wire Line
-	8300 5200 8450 5200
-Wire Wire Line
-	8300 5100 8700 5100
-Wire Wire Line
-	8450 3350 8700 3350
-Wire Wire Line
-	8150 900  8000 900 
-Wire Wire Line
-	8450 900  8500 900 
+	8300 900  8350 900 
 Wire Wire Line
 	10050 5200 10050 5500
 Wire Wire Line
@@ -2406,8 +2341,6 @@ Wire Wire Line
 	3400 5400 3650 5400
 Wire Wire Line
 	3400 5500 3600 5500
-Wire Wire Line
-	9450 1250 9100 1250
 Wire Wire Line
 	3400 4100 4500 4100
 Wire Wire Line
@@ -2688,4 +2621,26 @@ Wire Notes Line
 	5550 3750 6150 3750
 Wire Notes Line
 	6150 3750 6150 2450
+Text Label 1850 3500 2    60   ~ 0
+ESP_CH_PD
+Text Label 7400 1350 2    60   ~ 0
+ESP_CH_PD
+Text Label 8350 1250 0    60   ~ 0
+ESP_FW_UPD
+$Comp
+L ATSAMD21J U2
+U 1 1 55A33BB0
+P 2550 3950
+F 0 "U2" H 3050 5450 60  0000 C CNN
+F 1 "ATSAMD21J" V 2550 3750 60  0000 C CNN
+F 2 "Housings_QFP:TQFP-64_10x10mm_Pitch0.5mm" H 1750 3650 60  0001 C CNN
+F 3 "http://www.atmel.com/images/atmel-42181-sam-d21_datasheet.pdf" H 1750 3650 60  0001 C CNN
+F 4 "mouser" H 2550 3950 60  0001 C CNN "Supplier1"
+F 5 "556-ATSAMD21J18A-AU" H 2550 3950 60  0001 C CNN "Supplier1 part"
+F 6 "Atmel" H 2550 3950 60  0001 C CNN "Vendor"
+	1    2550 3950
+	1    0    0    -1  
+$EndComp
+Text Label 1850 3400 2    60   ~ 0
+ESP_FW_UPD
 $EndSCHEMATC
