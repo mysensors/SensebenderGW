@@ -744,8 +744,8 @@ F 5 "81-GRM39X104K16" H 1450 1150 60  0001 C CNN "Supplier1 part"
 	1    1450 1150
 	1    0    0    -1  
 $EndComp
-Text Notes 9500 2550 0    60   ~ 0
-Expansion connector
+Text Notes 9700 2550 0    60   ~ 0
+MYSX connector
 Text Notes 7200 2600 0    60   ~ 0
 Sensor radio network
 Text Notes 3000 650  0    60   ~ 0
@@ -899,7 +899,6 @@ F 3 "" H 5600 6350 60  0000 C CNN
 	1    5600 6350
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8350 1350
 NoConn ~ 8450 3450
 NoConn ~ 8450 3550
 NoConn ~ 8450 3650
@@ -1562,7 +1561,7 @@ F1 54 95 14 9F EF 69 AF 2F E5 68 0C 80 4D C9 83 B8 C7 32 D7 FA 45 6F 95 BF E8 F3
 88 3B 00 28 44 DC 01 40 21 E2 0E 00 0A 11 77 00 50 88 B8 03 80 42 C4 1D 00 14 22 EE 00 A0 10 71 
 07 00 85 88 3B 00 28 44 DC 01 40 21 E2 0E 00 0A 11 77 00 50 88 B8 03 80 42 C4 1D 00 14 22 EE 00 
 A0 10 71 07 00 85 88 3B 00 28 F4 2F 6E 0E 73 66 69 F5 31 42 00 00 00 00 49 45 4E 44 AE 42 60 82 
-40 
+78 
 EndData
 $EndBitmap
 Text Label 10250 3400 0    60   ~ 0
@@ -1983,7 +1982,6 @@ $EndComp
 Text Label 1850 3700 2    60   ~ 0
 NET_RST
 NoConn ~ 1850 3600
-NoConn ~ 1850 3300
 NoConn ~ 1850 3000
 NoConn ~ 1850 4300
 NoConn ~ 1850 4200
@@ -2097,7 +2095,7 @@ Wire Wire Line
 	2200 800  2200 850 
 Connection ~ 2200 850 
 Wire Notes Line
-	6750 550  6750 1950
+	6750 550  6750 2150
 Wire Wire Line
 	9350 900  9500 900 
 Wire Wire Line
@@ -2200,7 +2198,7 @@ Wire Wire Line
 	6200 800  6400 800 
 Connection ~ 6400 1050
 Wire Notes Line
-	11050 1950 11050 550 
+	11050 550  11050 2150
 Wire Wire Line
 	9800 900  9900 900 
 Wire Wire Line
@@ -2209,7 +2207,7 @@ Connection ~ 9900 900
 Wire Wire Line
 	9900 1650 9900 1700
 Wire Notes Line
-	6750 1950 11050 1950
+	11050 2150 6750 2150
 Wire Notes Line
 	11050 550  6750 550 
 Wire Wire Line
@@ -2643,4 +2641,10 @@ F 6 "Atmel" H 2550 3950 60  0001 C CNN "Vendor"
 $EndComp
 Text Label 1850 3400 2    60   ~ 0
 ESP_FW_UPD
+Text Label 1850 3300 2    60   ~ 0
+ESP_GPIO2
+Text Label 8350 1350 0    60   ~ 0
+ESP_GPIO2
+Text Notes 6900 2100 0    60   ~ 0
+NET_MISO / NET_MOSI doubles as UART RXD/TXD lines\nwhen ESP module is attached.\n(ESP8266 and W5100 can not be mounted at the same time)
 $EndSCHEMATC
