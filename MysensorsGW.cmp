@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-09 BZR 5648)-product   date = lør 18 jul 2015 08:51:25 CEST
+Cmp-Mod V01 Created by Cvpcb (2015-05-09 BZR 5648)-product   date = søn 19 jul 2015 10:55:05 CEST
 
 BeginCmp
 TimeStamp = /556612CD;
@@ -334,6 +334,13 @@ TimeStamp = /55A33BB0;
 Reference = U2;
 ValeurCmp = ATSAMD21J;
 IdModule  = Housings_QFP:TQFP-64_10x10mm_Pitch0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55AB6FD2;
+Reference = U3;
+ValeurCmp = 24LC32AT;
+IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
 EndCmp
 
 BeginCmp
