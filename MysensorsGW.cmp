@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-09 BZR 5648)-product   date = søn 19 jul 2015 10:55:05 CEST
+Cmp-Mod V01 Created by Cvpcb (2015-05-09 BZR 5648)-product   date = fre 24 jul 2015 08:17:57 CEST
 
 BeginCmp
 TimeStamp = /556612CD;
@@ -183,6 +183,13 @@ IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /55AE86E7;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /55832B64;
 Reference = FB1;
 ValeurCmp = 470R EMI;
@@ -225,27 +232,6 @@ IdModule  = mysensors_connectors:Cortex_M_Debug_Connector;
 EndCmp
 
 BeginCmp
-TimeStamp = /55A3C91B;
-Reference = Q1;
-ValeurCmp = BSS138;
-IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
-EndCmp
-
-BeginCmp
-TimeStamp = /55A3C2CB;
-Reference = Q2;
-ValeurCmp = BSS138;
-IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
-EndCmp
-
-BeginCmp
-TimeStamp = /55A42A40;
-Reference = Q3;
-ValeurCmp = BSS138;
-IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
-EndCmp
-
-BeginCmp
 TimeStamp = /5558B167;
 Reference = R1;
 ValeurCmp = 4k7;
@@ -255,7 +241,7 @@ EndCmp
 BeginCmp
 TimeStamp = /55A42A3A;
 Reference = R2;
-ValeurCmp = 220;
+ValeurCmp = 430;
 IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
@@ -269,28 +255,21 @@ EndCmp
 BeginCmp
 TimeStamp = /55869548;
 Reference = R4;
-ValeurCmp = 220;
+ValeurCmp = 430;
 IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /5586D67A;
 Reference = R5;
-ValeurCmp = 220;
+ValeurCmp = 430;
 IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /55830EA4;
+TimeStamp = /55AE86ED;
 Reference = R6;
-ValeurCmp = 27R;
-IdModule  = Resistors_SMD:R_0603_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /55830EED;
-Reference = R7;
-ValeurCmp = 27R;
+ValeurCmp = 430;
 IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
@@ -337,10 +316,10 @@ IdModule  = Housings_QFP:TQFP-64_10x10mm_Pitch0.5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /55AB6FD2;
+TimeStamp = /55B1DA97;
 Reference = U3;
-ValeurCmp = 24LC32AT;
-IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
+ValeurCmp = AT24CS32-STUM;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
 EndCmp
 
 BeginCmp
