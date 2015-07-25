@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/thomas/Projects/kicad/MysensorsGW/MysensorsGW.sch</source>
-    <date>man 13 jul 2015 23:10:01 CEST</date>
+    <date>lør 25 jul 2015 16:31:37 CEST</date>
     <tool>Eeschema (2015-05-09 BZR 5648)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -22,17 +22,23 @@
     <comp ref="U11">
       <value>MICRO-B_USB</value>
       <footprint>mysensors_connectors:Micro_USB</footprint>
-      <libsource lib="MysensorsGW-cache" part="MICRO-B_USB"/>
+      <fields>
+        <field name="Supplier1">Mouser</field>
+      </fields>
+      <libsource lib="conn" part="USB-MICRO-B"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55241CD4</tstamp>
     </comp>
     <comp ref="X1">
-      <value>32Khz</value>
+      <value>32.768hz</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <datasheet>http://www.mouser.com/ds/2/3/ABS07-120-32.768kHz-T-218607.pdf</datasheet>
       <fields>
+        <field name="Vendor">Abracon</field>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 part">732-FA-23820A50XG3</field>
-        <field name="Vendor">Epson</field>
+        <field name="Supplier1 partno">815-ABS0712032.768KT</field>
+        <field name="Supplier1 link">http://dk.mouser.com/Search/ProductDetail.aspx?R=ABS07-120-32.768kHz-Tvirtualkey52750000virtualkey815-ABS0712032.768KT</field>
+        <field name="Vendor partno">ABS07-120-32.768kHz-T</field>
       </fields>
       <libsource lib="MysensorsGW-cache" part="CRYSTAL"/>
       <sheetpath names="/" tstamps="/"/>
@@ -41,6 +47,10 @@
     <comp ref="C11">
       <value>100nF</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Supplier1">Mouser</field>
+        <field name="Supplier1 partno">81-GRM39X104K16J</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>553FDEAC</tstamp>
@@ -50,7 +60,7 @@
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <fields>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 part">81-GRM39X104K16</field>
+        <field name="Supplier1 partno">81-GRM39X104K16J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -61,7 +71,7 @@
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <fields>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 part">81-GRM39X104K16</field>
+        <field name="Supplier1 partno">81-GRM39X104K16J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -72,7 +82,7 @@
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <fields>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 part">81-GRM39X104K16</field>
+        <field name="Supplier1 partno">81-GRM39X104K16J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -90,7 +100,7 @@
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <fields>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 part">81-GRM39X104K16</field>
+        <field name="Supplier1 partno">81-GRM39X104K16J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -119,7 +129,7 @@
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <fields>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 part">81-GRM39X104K16</field>
+        <field name="Supplier1 partno">81-GRM39X104K16J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -130,7 +140,7 @@
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <fields>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 part">81-GRM39X104K16</field>
+        <field name="Supplier1 partno">81-GRM39X104K16J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -160,8 +170,11 @@
     </comp>
     <comp ref="P2">
       <value>IO Connector</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_2x10</footprint>
-      <libsource lib="conn" part="CONN_02X10"/>
+      <footprint>mysensors_connectors:MYSX_1.5</footprint>
+      <fields>
+        <field name="Supplier1">Mouser</field>
+      </fields>
+      <libsource lib="mysensors_connectors" part="MYSX_1.5"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>555F8C75</tstamp>
     </comp>
@@ -254,7 +267,7 @@
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <fields>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 part">81-GRM39X104K16</field>
+        <field name="Supplier1 partno">81-GRM39X104K16J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -265,25 +278,11 @@
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <fields>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 part">81-GRM39X104K16</field>
+        <field name="Supplier1 partno">81-GRM39X104K16J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>556612CD</tstamp>
-    </comp>
-    <comp ref="R6">
-      <value>27R</value>
-      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>55830EA4</tstamp>
-    </comp>
-    <comp ref="R7">
-      <value>27R</value>
-      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>55830EED</tstamp>
     </comp>
     <comp ref="FB1">
       <value>470R EMI</value>
@@ -316,8 +315,11 @@
       <tstamp>5586911F</tstamp>
     </comp>
     <comp ref="R4">
-      <value>220</value>
+      <value>430</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Supplier1">Mouser</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55869548</tstamp>
@@ -330,7 +332,7 @@
       <tstamp>5586D5FB</tstamp>
     </comp>
     <comp ref="R5">
-      <value>220</value>
+      <value>430</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -348,25 +350,25 @@
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <fields>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 part">81-GRM39X104K16</field>
+        <field name="Supplier1 partno">81-GRM39X104K16J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55A19221</tstamp>
     </comp>
     <comp ref="C18">
-      <value>C</value>
+      <value>3pF</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>http://www.mouser.com/ds/2/40/useries-37712.pdf</datasheet>
+      <fields>
+        <field name="Vendor">AVX</field>
+        <field name="Supplier1">Mouser</field>
+        <field name="Supplier1 partno">581-06035U3R0B</field>
+        <field name="Vendor partno">06035U3R0BAT2A</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55A1C3E3</tstamp>
-    </comp>
-    <comp ref="C19">
-      <value>C</value>
-      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>55A1C427</tstamp>
     </comp>
     <comp ref="P4">
       <value>Debug</value>
@@ -392,35 +394,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55A2E77F</tstamp>
     </comp>
-    <comp ref="U2">
-      <value>ATSAMD21J</value>
-      <footprint>Housings_QFP:TQFP-64_10x10mm_Pitch0.5mm</footprint>
-      <datasheet>http://www.atmel.com/images/atmel-42181-sam-d21_datasheet.pdf</datasheet>
-      <fields>
-        <field name="Supplier1">mouser</field>
-        <field name="Supplier1 part">556-ATSAMD21J18A-AU</field>
-        <field name="Vendor">Atmel</field>
-      </fields>
-      <libsource lib="mysensors_mcu" part="ATSAMD21J"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>55A33BB0</tstamp>
-    </comp>
-    <comp ref="Q2">
-      <value>BSS138</value>
-      <footprint>Housings_SOT-23_SOT-143_TSOT-6:SOT-23</footprint>
-      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
-      <libsource lib="device" part="Q_NMOS_GSD"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>55A3C2CB</tstamp>
-    </comp>
-    <comp ref="Q1">
-      <value>BSS138</value>
-      <footprint>Housings_SOT-23_SOT-143_TSOT-6:SOT-23</footprint>
-      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
-      <libsource lib="device" part="Q_NMOS_GSD"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>55A3C91B</tstamp>
-    </comp>
     <comp ref="D3">
       <value>LED</value>
       <footprint>LEDs:LED-0603</footprint>
@@ -429,26 +402,18 @@
       <tstamp>55A42A2E</tstamp>
     </comp>
     <comp ref="R2">
-      <value>220</value>
+      <value>430</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55A42A3A</tstamp>
-    </comp>
-    <comp ref="Q3">
-      <value>BSS138</value>
-      <footprint>Housings_SOT-23_SOT-143_TSOT-6:SOT-23</footprint>
-      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
-      <libsource lib="device" part="Q_NMOS_GSD"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>55A42A40</tstamp>
     </comp>
     <comp ref="C21">
       <value>100nF</value>
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <fields>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 part">81-GRM39X104K16</field>
+        <field name="Supplier1 partno">81-GRM39X104K16J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -482,7 +447,7 @@
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <fields>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 part">81-GRM39X104K16</field>
+        <field name="Supplier1 partno">81-GRM39X104K16J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -493,11 +458,130 @@
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <fields>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 part">81-GRM39X104K16</field>
+        <field name="Supplier1 partno">81-GRM39X104K16J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55A436A7</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_PUSH</value>
+      <footprint>Buttons_Switches_SMD:SW_SPST_PTS645</footprint>
+      <datasheet>http://www.mouser.com/ds/2/418/NG_CD_2-1437565-7_V-689165.pdf</datasheet>
+      <fields>
+        <field name="Vendor">TE Connectivity</field>
+        <field name="Vendor partno">FSM2JSMAATR</field>
+      </fields>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A811E7</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A81D84</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>39R</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A81FF3</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A82881</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Supplier1">Mouser</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55AA04EC</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55AA06DA</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ATSAMD21J</value>
+      <footprint>Housings_QFP:TQFP-64_10x10mm_Pitch0.5mm</footprint>
+      <datasheet>http://www.atmel.com/images/atmel-42181-sam-d21_datasheet.pdf</datasheet>
+      <fields>
+        <field name="Supplier1">mouser</field>
+        <field name="Supplier1 part">556-ATSAMD21J18A-AU</field>
+        <field name="Vendor">Atmel</field>
+      </fields>
+      <libsource lib="mysensors_mcu" part="ATSAMD21J"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A33BB0</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55AE86E7</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>430</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55AE86ED</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>AT24CS32-STUM</value>
+      <footprint>Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5</footprint>
+      <datasheet>http://www.mouser.com/ds/2/36/Atmel-8869-SEEPROM-AT24CS32-Datasheet-469859.pdf</datasheet>
+      <fields>
+        <field name="Supplier1">Mouser</field>
+      </fields>
+      <libsource lib="memory" part="AT24CS32-STUM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B1DA97</tstamp>
+    </comp>
+    <comp ref="FB3">
+      <value>470R</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="Supplier1">Mouser</field>
+      </fields>
+      <libsource lib="device" part="FILTER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B1F51E</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>Debug (JTAG ICE3)</value>
+      <footprint>mysensors_connectors:Cortex_M_Debug_Connector</footprint>
+      <libsource lib="mysensors_connectors" part="Debug"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B38877</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>3pF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>http://www.mouser.com/ds/2/40/useries-37712.pdf</datasheet>
+      <fields>
+        <field name="Vendor">AVX</field>
+        <field name="Supplier1">Mouser</field>
+        <field name="Supplier1 partno">581-06035U3R0B</field>
+        <field name="Vendor partno">06035U3R0BAT2A</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B3A3CD</tstamp>
     </comp>
   </components>
   <libparts>
@@ -586,18 +670,6 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="Q_NMOS_GSD">
-      <description>Transistor N-MOSFET (general)</description>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">Q_NMOS_GSD</field>
-      </fields>
-      <pins>
-        <pin num="1" name="G" type="input"/>
-        <pin num="2" name="S" type="openEm"/>
-        <pin num="3" name="D" type="openCol"/>
-      </pins>
-    </libpart>
     <libpart lib="device" part="R">
       <description>Resistor</description>
       <footprints>
@@ -611,6 +683,17 @@
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Push Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="conn" part="CONN_01X01">
@@ -644,54 +727,48 @@
         <pin num="2" name="P2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="conn" part="CONN_02X10">
+    <libpart lib="conn" part="USB-MINI-B">
+      <aliases>
+        <alias>USB-MICRO-B</alias>
+      </aliases>
+      <description>USB Mini B connector</description>
       <footprints>
-        <fp>Pin_Header_Straight_2X10</fp>
-        <fp>Pin_Header_Angled_2X10</fp>
-        <fp>Socket_Strip_Straight_2X10</fp>
-        <fp>Socket_Strip_Angled_2X10</fp>
+        <fp>USB-Mini-B-Jack</fp>
       </footprints>
       <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_02X10</field>
+        <field name="Reference">CON</field>
+        <field name="Value">USB-MINI-B</field>
       </fields>
       <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-        <pin num="7" name="P7" type="passive"/>
-        <pin num="8" name="P8" type="passive"/>
-        <pin num="9" name="P9" type="passive"/>
-        <pin num="10" name="P10" type="passive"/>
-        <pin num="11" name="P11" type="passive"/>
-        <pin num="12" name="P12" type="passive"/>
-        <pin num="13" name="P13" type="passive"/>
-        <pin num="14" name="P14" type="passive"/>
-        <pin num="15" name="P15" type="passive"/>
-        <pin num="16" name="P16" type="passive"/>
-        <pin num="17" name="P17" type="passive"/>
-        <pin num="18" name="P18" type="passive"/>
-        <pin num="19" name="P19" type="passive"/>
-        <pin num="20" name="P20" type="passive"/>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="BiDi"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="SHELL1" type="passive"/>
+        <pin num="7" name="SHELL2" type="passive"/>
+        <pin num="8" name="SHELL3" type="passive"/>
+        <pin num="9" name="SHELL4" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="mysensors_regulators" part="AMS1117">
-      <description>1A LDO Voltage Regulator</description>
-      <docs>http://www.advanced-monolithic.com/pdf/ds1117.pdf</docs>
+    <libpart lib="memory" part="AT24CS32-STUM">
+      <description>AT24CS32-STUM, 32Kb (4096x8) Serial EEPROM with Unique Serial Number, SOT-23-5</description>
+      <docs>http://www.atmel.com/Images/Atmel-8869-SEEPROM-AT24CS32-Datasheet.pdf</docs>
       <footprints>
-        <fp>SMD_Packages:SOT-223</fp>
+        <fp>SOT-23*</fp>
+        <fp>SOT-23*</fp>
       </footprints>
       <fields>
-        <field name="Reference">U</field>
-        <field name="Value">AMS1117</field>
+        <field name="Reference">IC</field>
+        <field name="Value">AT24CS32-STUM</field>
+        <field name="Footprint">SOT-23-5</field>
       </fields>
       <pins>
-        <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="VO" type="power_out"/>
-        <pin num="3" name="VI" type="power_in"/>
+        <pin num="1" name="SCL" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="SDA" type="BiDi"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="WP" type="input"/>
       </pins>
     </libpart>
     <libpart lib="mysensors_security" part="ATSHA204A">
@@ -711,6 +788,22 @@
         <pin num="3" name="GND" type="power_in"/>
       </pins>
     </libpart>
+    <libpart lib="mysensors_regulators" part="AMS1117">
+      <description>1A LDO Voltage Regulator</description>
+      <docs>http://www.advanced-monolithic.com/pdf/ds1117.pdf</docs>
+      <footprints>
+        <fp>SMD_Packages:SOT-223</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
     <libpart lib="mysensors_radios" part="NRF24L01">
       <description>NRF24L01+</description>
       <fields>
@@ -726,25 +819,6 @@
         <pin num="6" name="MOSI" type="input"/>
         <pin num="7" name="MISO" type="input"/>
         <pin num="8" name="IRQ" type="output"/>
-      </pins>
-    </libpart>
-    <libpart lib="mysensors_memories" part="AT25DF512C">
-      <description>AT25DF512C, 512-Kbit SPI Serial Flash Memory, SOIC-8, Vcc=3.3V</description>
-      <docs>http://www.adestotech.com/wp-content/uploads/DS-AT25DF512C-030.pdf</docs>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">AT25DF512C</field>
-        <field name="Footprint">SOIC-8_3.9x4.9mm_Pitch1.27mm</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~CS" type="input"/>
-        <pin num="2" name="SO" type="output"/>
-        <pin num="3" name="~WP" type="input"/>
-        <pin num="4" name="GND" type="power_in"/>
-        <pin num="5" name="SI" type="input"/>
-        <pin num="6" name="SCK" type="input"/>
-        <pin num="7" name="~HOLD" type="input"/>
-        <pin num="8" name="VCC" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="mysensors_radios" part="RFM69HW">
@@ -771,10 +845,29 @@
         <pin num="10" name="ANA" type="passive"/>
         <pin num="11" name="GND" type="power_in"/>
         <pin num="12" name="SCK" type="input"/>
-        <pin num="13" name="MISO" type="openCol"/>
+        <pin num="13" name="MISO" type="3state"/>
         <pin num="14" name="MOSI" type="input"/>
         <pin num="15" name="NSS" type="input"/>
         <pin num="16" name="NC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mysensors_memories" part="AT25DF512C">
+      <description>AT25DF512C, 512-Kbit SPI Serial Flash Memory, SOIC-8, Vcc=3.3V</description>
+      <docs>http://www.adestotech.com/wp-content/uploads/DS-AT25DF512C-030.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AT25DF512C</field>
+        <field name="Footprint">SOIC-8_3.9x4.9mm_Pitch1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~CS" type="input"/>
+        <pin num="2" name="SO" type="3state"/>
+        <pin num="3" name="~WP" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SI" type="input"/>
+        <pin num="6" name="SCK" type="input"/>
+        <pin num="7" name="~HOLD" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="mysensors_network" part="ESP8266">
@@ -842,12 +935,12 @@
         <pin num="2" name="XOUT32/PA01" type="BiDi"/>
         <pin num="3" name="AIN0/DAC/PA02" type="BiDi"/>
         <pin num="4" name="AIN1/PA03" type="BiDi"/>
-        <pin num="5" name="PB04/AIN12" type="input"/>
-        <pin num="6" name="PB05/AIN13" type="input"/>
+        <pin num="5" name="PB04/AIN12" type="BiDi"/>
+        <pin num="6" name="PB05/AIN13" type="BiDi"/>
         <pin num="7" name="GNDANA" type="power_in"/>
         <pin num="8" name="VDDANA" type="power_in"/>
-        <pin num="9" name="PB06/AIN14" type="input"/>
-        <pin num="10" name="PB07/AIN15" type="input"/>
+        <pin num="9" name="PB06/AIN14" type="BiDi"/>
+        <pin num="10" name="PB07/AIN15" type="BiDi"/>
         <pin num="11" name="PB08/AIN2" type="BiDi"/>
         <pin num="12" name="PB09/AIN3" type="BiDi"/>
         <pin num="13" name="TCC0_W0/AIN4/PA04" type="BiDi"/>
@@ -904,6 +997,39 @@
         <pin num="64" name="PB03/AIN3" type="BiDi"/>
       </pins>
     </libpart>
+    <libpart lib="mysensors_connectors" part="MYSX_1.5">
+      <description>Mysensors expansion connector 1.5</description>
+      <docs>http://github.com/mysensors-kicad/documentation/raw/master/TheMYSXconnector.pdf</docs>
+      <footprints>
+        <fp>MYSX_1.5</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">MYSX_1.5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vraw" type="passive"/>
+        <pin num="2" name="+3.3V" type="passive"/>
+        <pin num="3" name="VCCio" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="D1_DFM" type="passive"/>
+        <pin num="6" name="D2_DTM" type="passive"/>
+        <pin num="7" name="A1" type="passive"/>
+        <pin num="8" name="A2" type="passive"/>
+        <pin num="9" name="D3_INT" type="passive"/>
+        <pin num="10" name="D4_INT" type="passive"/>
+        <pin num="11" name="D5_PWM" type="passive"/>
+        <pin num="12" name="D6_PWM" type="passive"/>
+        <pin num="13" name="D7_SCL" type="passive"/>
+        <pin num="14" name="D8_SDA" type="passive"/>
+        <pin num="15" name="D9_A3" type="passive"/>
+        <pin num="16" name="D10_A4" type="passive"/>
+        <pin num="17" name="D11_MOSI" type="passive"/>
+        <pin num="18" name="D12_MISO" type="passive"/>
+        <pin num="19" name="D13_SCK" type="passive"/>
+        <pin num="20" name="D14_CS" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="MysensorsGW-cache" part="CRYSTAL">
       <fields>
         <field name="Reference">X</field>
@@ -912,19 +1038,6 @@
       <pins>
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="MysensorsGW-cache" part="MICRO-B_USB">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">MICRO-B_USB</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VBUS" type="input"/>
-        <pin num="2" name="D-" type="input"/>
-        <pin num="3" name="D+" type="input"/>
-        <pin num="4" name="ID" type="input"/>
-        <pin num="5" name="GND" type="input"/>
       </pins>
     </libpart>
   </libparts>
@@ -938,11 +1051,14 @@
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
-    <library logical="mysensors_regulators">
-      <uri>/home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_regulators.lib</uri>
+    <library logical="memory">
+      <uri>/usr/share/kicad/library/memory.lib</uri>
     </library>
     <library logical="mysensors_security">
       <uri>/home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_security.lib</uri>
+    </library>
+    <library logical="mysensors_regulators">
+      <uri>/home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_regulators.lib</uri>
     </library>
     <library logical="mysensors_radios">
       <uri>/home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_radios.lib</uri>
@@ -964,361 +1080,378 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="+5V">
-      <node ref="U4" pin="2"/>
-      <node ref="C6" pin="1"/>
-      <node ref="C13" pin="1"/>
-      <node ref="U10" pin="3"/>
-      <node ref="FB1" pin="1"/>
-      <node ref="C22" pin="1"/>
-      <node ref="P2" pin="1"/>
-      <node ref="C12" pin="1"/>
+    <net code="1" name="/D7_SCL">
+      <node ref="U3" pin="1"/>
+      <node ref="U5" pin="6"/>
+      <node ref="P2" pin="13"/>
+      <node ref="R10" pin="2"/>
+      <node ref="U2" pin="44"/>
     </net>
-    <net code="2" name="Net-(P1-Pad1)">
-      <node ref="U7" pin="10"/>
+    <net code="2" name="/D8_SDA">
+      <node ref="U2" pin="43"/>
+      <node ref="P2" pin="14"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="P4" pin="3"/>
+      <node ref="U11" pin="5"/>
+      <node ref="U4" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U2" pin="22"/>
+      <node ref="U2" pin="47"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U2" pin="33"/>
+      <node ref="U10" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="P2" pin="4"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="P5" pin="4"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U8" pin="1"/>
+      <node ref="U9" pin="7"/>
+      <node ref="U9" pin="4"/>
+      <node ref="U9" pin="3"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U7" pin="9"/>
+      <node ref="D4" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U7" pin="11"/>
+      <node ref="D3" pin="1"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="P4" pin="5"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C23" pin="2"/>
+      <node ref="FB3" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U2" pin="54"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="2"/>
+      <node ref="P3" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C21" pin="2"/>
+    </net>
+    <net code="4" name="+3V3">
+      <node ref="C8" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="P2" pin="3"/>
+      <node ref="U6" pin="8"/>
+      <node ref="U5" pin="5"/>
+      <node ref="P2" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U7" pin="8"/>
+      <node ref="FB2" pin="2"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="U2" pin="34"/>
+      <node ref="U2" pin="56"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U2" pin="21"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U10" pin="2"/>
+      <node ref="U2" pin="48"/>
+      <node ref="U8" pin="2"/>
+      <node ref="U9" pin="8"/>
+      <node ref="P5" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="5" name="Net-(U11-Pad8)">
+      <node ref="U11" pin="8"/>
+    </net>
+    <net code="6" name="Net-(U11-Pad9)">
+      <node ref="U11" pin="9"/>
+    </net>
+    <net code="7" name="Net-(C14-Pad2)">
+      <node ref="C14" pin="2"/>
+      <node ref="U11" pin="1"/>
+      <node ref="FB1" pin="2"/>
+    </net>
+    <net code="8" name="Net-(P4-Pad9)">
+      <node ref="P4" pin="9"/>
+    </net>
+    <net code="9" name="/LED4">
+      <node ref="U2" pin="39"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="10" name="/D13_SCK">
+      <node ref="P2" pin="19"/>
+      <node ref="U2" pin="49"/>
+    </net>
+    <net code="11" name="/D11_MOSI">
+      <node ref="U2" pin="59"/>
+      <node ref="P2" pin="17"/>
+    </net>
+    <net code="12" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="13" name="Net-(P1-Pad1)">
       <node ref="P1" pin="1"/>
+      <node ref="U7" pin="10"/>
     </net>
-    <net code="3" name="/SCK">
-      <node ref="U7" pin="12"/>
-      <node ref="U2" pin="37"/>
-      <node ref="U8" pin="5"/>
-      <node ref="U9" pin="6"/>
+    <net code="14" name="/A2">
+      <node ref="P2" pin="8"/>
+      <node ref="U2" pin="4"/>
     </net>
-    <net code="4" name="/MISO">
-      <node ref="U9" pin="2"/>
-      <node ref="U8" pin="7"/>
-      <node ref="U7" pin="13"/>
-      <node ref="U2" pin="35"/>
+    <net code="15" name="/A1">
+      <node ref="P2" pin="7"/>
+      <node ref="U2" pin="3"/>
     </net>
-    <net code="5" name="/MOSI">
-      <node ref="U7" pin="14"/>
-      <node ref="U9" pin="5"/>
-      <node ref="U2" pin="36"/>
-      <node ref="U8" pin="6"/>
+    <net code="16" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
     </net>
-    <net code="6" name="/CS_RFM">
+    <net code="17" name="Net-(U2-Pad6)">
       <node ref="U2" pin="6"/>
-      <node ref="U7" pin="15"/>
     </net>
-    <net code="7" name="/NET_MOSI">
-      <node ref="U6" pin="2"/>
-      <node ref="U4" pin="6"/>
-      <node ref="U2" pin="26"/>
+    <net code="18" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
     </net>
-    <net code="8" name="/NET_SCK">
-      <node ref="U4" pin="5"/>
-      <node ref="U2" pin="27"/>
+    <net code="19" name="/ESP_GPIO2">
+      <node ref="U6" pin="3"/>
+      <node ref="U2" pin="10"/>
     </net>
-    <net code="9" name="/Reset">
-      <node ref="P4" pin="10"/>
-      <node ref="U2" pin="52"/>
+    <net code="20" name="/SECURITY">
+      <node ref="R1" pin="2"/>
+      <node ref="U2" pin="20"/>
+      <node ref="U1" pin="1"/>
     </net>
-    <net code="10" name="Net-(U2-Pad62)">
+    <net code="21" name="Net-(U2-Pad40)">
+      <node ref="U2" pin="40"/>
+    </net>
+    <net code="22" name="/D14_CS">
+      <node ref="P2" pin="20"/>
+      <node ref="U2" pin="50"/>
+    </net>
+    <net code="23" name="/D12_MISO">
+      <node ref="P2" pin="18"/>
+      <node ref="U2" pin="60"/>
+    </net>
+    <net code="24" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="25" name="/D10_A4">
+      <node ref="U2" pin="64"/>
+      <node ref="P2" pin="16"/>
+    </net>
+    <net code="26" name="/D6_PWM">
+      <node ref="P2" pin="12"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="27" name="/D-">
+      <node ref="U11" pin="2"/>
+      <node ref="U2" pin="45"/>
+    </net>
+    <net code="28" name="Net-(C17-Pad2)">
+      <node ref="C17" pin="2"/>
+      <node ref="U2" pin="55"/>
+    </net>
+    <net code="29" name="/D4_INT">
+      <node ref="U2" pin="16"/>
+      <node ref="P2" pin="10"/>
+    </net>
+    <net code="30" name="/D+">
+      <node ref="U2" pin="46"/>
+      <node ref="U11" pin="3"/>
+    </net>
+    <net code="31" name="/D2_DTM">
+      <node ref="U2" pin="17"/>
+      <node ref="P2" pin="6"/>
+    </net>
+    <net code="32" name="/D1_DFM">
+      <node ref="P2" pin="5"/>
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="33" name="/NET_SS">
+      <node ref="U4" pin="4"/>
+      <node ref="U2" pin="28"/>
+    </net>
+    <net code="34" name="/LED1">
+      <node ref="U2" pin="38"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="35" name="/ESP_FW_UPD">
+      <node ref="U6" pin="5"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="36" name="/LED2">
+      <node ref="U2" pin="41"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="37" name="Net-(U2-Pad61)">
+      <node ref="U2" pin="61"/>
+    </net>
+    <net code="38" name="/ESP_CH_PD">
+      <node ref="U6" pin="4"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="39" name="/BOOTMODE">
+      <node ref="P3" pin="1"/>
+      <node ref="U2" pin="32"/>
+    </net>
+    <net code="40" name="Net-(U2-Pad62)">
       <node ref="U2" pin="62"/>
     </net>
-    <net code="11" name="/MYSX_D5_PWM">
-      <node ref="U2" pin="13"/>
+    <net code="41" name="/D5_PWM">
       <node ref="P2" pin="11"/>
+      <node ref="U2" pin="13"/>
     </net>
-    <net code="12" name="Net-(U2-Pad23)">
+    <net code="42" name="Net-(U2-Pad23)">
       <node ref="U2" pin="23"/>
     </net>
-    <net code="13" name="/MYSX_D8_SDA">
-      <node ref="P2" pin="14"/>
-      <node ref="U2" pin="43"/>
-      <node ref="U5" pin="1"/>
-    </net>
-    <net code="14" name="/MYSX_D9_ANA3">
+    <net code="43" name="/D9_A3">
       <node ref="P2" pin="15"/>
       <node ref="U2" pin="63"/>
     </net>
-    <net code="15" name="/NET_RST">
+    <net code="44" name="/D3_INT">
+      <node ref="U2" pin="14"/>
+      <node ref="P2" pin="9"/>
+    </net>
+    <net code="45" name="/LED3">
+      <node ref="R2" pin="2"/>
+      <node ref="U2" pin="42"/>
+    </net>
+    <net code="46" name="Net-(P5-Pad3)">
+      <node ref="P5" pin="3"/>
+    </net>
+    <net code="47" name="Net-(P5-Pad9)">
+      <node ref="P5" pin="9"/>
+    </net>
+    <net code="48" name="Net-(P5-Pad10)">
+      <node ref="P5" pin="10"/>
+    </net>
+    <net code="49" name="Net-(P5-Pad8)">
+      <node ref="P5" pin="8"/>
+    </net>
+    <net code="50" name="/Reset">
+      <node ref="C23" pin="1"/>
+      <node ref="P4" pin="10"/>
+      <node ref="R8" pin="1"/>
+      <node ref="P5" pin="6"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U2" pin="52"/>
+    </net>
+    <net code="51" name="+5V">
+      <node ref="U10" pin="3"/>
+      <node ref="C22" pin="1"/>
+      <node ref="FB1" pin="1"/>
+      <node ref="P2" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="52" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="53" name="Net-(D2-Pad2)">
+      <node ref="R5" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="54" name="Net-(D3-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="55" name="Net-(C18-Pad2)">
+      <node ref="C18" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="X1" pin="2"/>
+    </net>
+    <net code="56" name="Net-(U5-Pad4)">
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="57" name="Net-(U5-Pad3)">
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="58" name="/NET_RST">
       <node ref="U6" pin="6"/>
       <node ref="U2" pin="24"/>
       <node ref="U4" pin="3"/>
     </net>
-    <net code="16" name="/MYSX_D7_SCL">
-      <node ref="P2" pin="13"/>
-      <node ref="U5" pin="6"/>
-      <node ref="U2" pin="44"/>
-    </net>
-    <net code="17" name="/MYSX_D10_ANA4">
-      <node ref="P2" pin="16"/>
-      <node ref="U2" pin="64"/>
-    </net>
-    <net code="18" name="/MYSX_D6_PWM">
-      <node ref="P2" pin="12"/>
-      <node ref="U2" pin="15"/>
-    </net>
-    <net code="19" name="/NET_MISO">
+    <net code="59" name="/NET_MISO">
       <node ref="U6" pin="7"/>
       <node ref="U2" pin="25"/>
       <node ref="U4" pin="7"/>
     </net>
-    <net code="20" name="Net-(U2-Pad40)">
-      <node ref="U2" pin="40"/>
-    </net>
-    <net code="21" name="/MYSX_ANA2">
-      <node ref="U2" pin="4"/>
-      <node ref="P2" pin="8"/>
-    </net>
-    <net code="22" name="Net-(U2-Pad5)">
-      <node ref="U2" pin="5"/>
-    </net>
-    <net code="23" name="/IRQ_RFM">
-      <node ref="U2" pin="9"/>
-      <node ref="U7" pin="2"/>
-    </net>
-    <net code="24" name="Net-(U2-Pad10)">
-      <node ref="U2" pin="10"/>
-    </net>
-    <net code="25" name="/SECURITY">
-      <node ref="R1" pin="2"/>
-      <node ref="U1" pin="1"/>
-      <node ref="U2" pin="20"/>
-    </net>
-    <net code="26" name="Net-(U2-Pad30)">
-      <node ref="U2" pin="30"/>
-    </net>
-    <net code="27" name="/MYSX_D14_CS">
-      <node ref="P2" pin="20"/>
-      <node ref="U2" pin="50"/>
-    </net>
-    <net code="28" name="/MYSX_D12_MISO">
-      <node ref="P2" pin="18"/>
-      <node ref="U2" pin="60"/>
-    </net>
-    <net code="29" name="Net-(U2-Pad11)">
-      <node ref="U2" pin="11"/>
-    </net>
-    <net code="30" name="/IRQ_NRF">
-      <node ref="U2" pin="31"/>
-      <node ref="U8" pin="8"/>
-    </net>
-    <net code="31" name="/LED2">
-      <node ref="Q2" pin="1"/>
-      <node ref="U2" pin="41"/>
-    </net>
-    <net code="32" name="Net-(U2-Pad61)">
-      <node ref="U2" pin="61"/>
-    </net>
-    <net code="33" name="Net-(U2-Pad12)">
-      <node ref="U2" pin="12"/>
-    </net>
-    <net code="34" name="Net-(Q1-Pad3)">
-      <node ref="R4" pin="2"/>
-      <node ref="Q1" pin="3"/>
-    </net>
-    <net code="35" name="Net-(Q2-Pad3)">
-      <node ref="R5" pin="2"/>
-      <node ref="Q2" pin="3"/>
-    </net>
-    <net code="36" name="/MYSX_D11_MOSI">
-      <node ref="U2" pin="59"/>
-      <node ref="P2" pin="17"/>
-    </net>
-    <net code="37" name="/MYSX_D2_DTM">
-      <node ref="P2" pin="6"/>
-      <node ref="U2" pin="17"/>
-    </net>
-    <net code="38" name="/MYSX_D1_DFM">
-      <node ref="P2" pin="5"/>
-      <node ref="U2" pin="18"/>
-    </net>
-    <net code="39" name="/NET_SS">
-      <node ref="U4" pin="4"/>
-      <node ref="U2" pin="28"/>
-    </net>
-    <net code="40" name="/LED1">
-      <node ref="Q1" pin="1"/>
-      <node ref="U2" pin="38"/>
-    </net>
-    <net code="41" name="Net-(U2-Pad29)">
-      <node ref="U2" pin="29"/>
-    </net>
-    <net code="42" name="Net-(U2-Pad39)">
-      <node ref="U2" pin="39"/>
-    </net>
-    <net code="43" name="/MYSX_D13_SCK">
-      <node ref="U2" pin="49"/>
-      <node ref="P2" pin="19"/>
-    </net>
-    <net code="44" name="+3V3">
-      <node ref="C15" pin="1"/>
-      <node ref="P2" pin="3"/>
-      <node ref="U7" pin="8"/>
-      <node ref="U1" pin="2"/>
-      <node ref="P2" pin="2"/>
-      <node ref="D1" pin="2"/>
-      <node ref="U5" pin="5"/>
-      <node ref="D2" pin="2"/>
-      <node ref="C11" pin="2"/>
-      <node ref="C2" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="R1" pin="1"/>
-      <node ref="U10" pin="2"/>
-      <node ref="C16" pin="1"/>
-      <node ref="C9" pin="2"/>
-      <node ref="C1" pin="1"/>
-      <node ref="C7" pin="1"/>
-      <node ref="P4" pin="1"/>
-      <node ref="C8" pin="1"/>
-      <node ref="U6" pin="8"/>
-      <node ref="U9" pin="8"/>
-      <node ref="U8" pin="2"/>
-      <node ref="C21" pin="1"/>
-      <node ref="U2" pin="48"/>
-      <node ref="D3" pin="2"/>
-      <node ref="U2" pin="56"/>
-      <node ref="U2" pin="21"/>
-      <node ref="U2" pin="34"/>
-      <node ref="FB2" pin="2"/>
-      <node ref="C10" pin="2"/>
-    </net>
-    <net code="45" name="Net-(D3-Pad1)">
-      <node ref="D3" pin="1"/>
-      <node ref="R2" pin="1"/>
-    </net>
-    <net code="46" name="/LED3">
-      <node ref="U2" pin="42"/>
-      <node ref="Q3" pin="1"/>
-    </net>
-    <net code="47" name="Net-(Q3-Pad3)">
-      <node ref="Q3" pin="3"/>
-      <node ref="R2" pin="2"/>
-    </net>
-    <net code="48" name="Net-(P4-Pad6)">
-      <node ref="P4" pin="6"/>
-    </net>
-    <net code="49" name="Net-(P4-Pad8)">
-      <node ref="P4" pin="8"/>
-    </net>
-    <net code="50" name="Net-(C17-Pad2)">
-      <node ref="C17" pin="2"/>
-      <node ref="U2" pin="55"/>
-    </net>
-    <net code="51" name="Net-(C14-Pad2)">
-      <node ref="U11" pin="1"/>
-      <node ref="FB1" pin="2"/>
-      <node ref="C14" pin="2"/>
-    </net>
-    <net code="52" name="Net-(R7-Pad1)">
-      <node ref="U11" pin="3"/>
-      <node ref="R7" pin="1"/>
-    </net>
-    <net code="53" name="Net-(R6-Pad1)">
-      <node ref="U11" pin="2"/>
-      <node ref="R6" pin="1"/>
-    </net>
-    <net code="54" name="Net-(D1-Pad1)">
-      <node ref="R4" pin="1"/>
-      <node ref="D1" pin="1"/>
-    </net>
-    <net code="55" name="Net-(D2-Pad1)">
-      <node ref="D2" pin="1"/>
-      <node ref="R5" pin="1"/>
-    </net>
-    <net code="56" name="/MYSX_D4_INT">
-      <node ref="U2" pin="16"/>
-      <node ref="P2" pin="10"/>
-    </net>
-    <net code="57" name="/MYSX_D3_INT">
-      <node ref="U2" pin="14"/>
-      <node ref="P2" pin="9"/>
-    </net>
-    <net code="58" name="/CS_NRF">
-      <node ref="U2" pin="19"/>
-      <node ref="U8" pin="4"/>
-    </net>
-    <net code="59" name="/CE_NRF">
-      <node ref="U2" pin="53"/>
-      <node ref="U8" pin="3"/>
-    </net>
-    <net code="60" name="GND">
-      <node ref="C18" pin="1"/>
-      <node ref="Q1" pin="2"/>
-      <node ref="Q2" pin="2"/>
-      <node ref="C9" pin="1"/>
-      <node ref="U2" pin="47"/>
-      <node ref="P3" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="U7" pin="11"/>
-      <node ref="C7" pin="2"/>
-      <node ref="U7" pin="9"/>
-      <node ref="U2" pin="7"/>
-      <node ref="U2" pin="54"/>
-      <node ref="P4" pin="3"/>
-      <node ref="P4" pin="5"/>
-      <node ref="P4" pin="9"/>
-      <node ref="U2" pin="22"/>
-      <node ref="U2" pin="33"/>
-      <node ref="C20" pin="2"/>
-      <node ref="C19" pin="1"/>
-      <node ref="C14" pin="1"/>
-      <node ref="C21" pin="2"/>
-      <node ref="C17" pin="1"/>
-      <node ref="C10" pin="1"/>
-      <node ref="U9" pin="3"/>
-      <node ref="U9" pin="4"/>
-      <node ref="U9" pin="7"/>
-      <node ref="U8" pin="1"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C22" pin="2"/>
-      <node ref="C11" pin="1"/>
-      <node ref="C2" pin="2"/>
-      <node ref="U5" pin="2"/>
-      <node ref="U1" pin="3"/>
-      <node ref="U6" pin="1"/>
-      <node ref="P2" pin="4"/>
-      <node ref="C8" pin="2"/>
-      <node ref="U11" pin="5"/>
-      <node ref="C16" pin="2"/>
-      <node ref="U10" pin="1"/>
-      <node ref="Q3" pin="2"/>
-      <node ref="C12" pin="2"/>
-      <node ref="C15" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="U4" pin="1"/>
-    </net>
-    <net code="61" name="/MYSX_ANA1">
-      <node ref="P2" pin="7"/>
-      <node ref="U2" pin="3"/>
-    </net>
-    <net code="62" name="Net-(C18-Pad2)">
-      <node ref="U2" pin="1"/>
-      <node ref="C18" pin="2"/>
-      <node ref="X1" pin="2"/>
-    </net>
-    <net code="63" name="Net-(U5-Pad3)">
-      <node ref="U5" pin="3"/>
-    </net>
-    <net code="64" name="Net-(U5-Pad4)">
-      <node ref="U5" pin="4"/>
-    </net>
-    <net code="65" name="Net-(U6-Pad3)">
-      <node ref="U6" pin="3"/>
-    </net>
-    <net code="66" name="Net-(U6-Pad4)">
-      <node ref="U6" pin="4"/>
-    </net>
-    <net code="67" name="Net-(U6-Pad5)">
-      <node ref="U6" pin="5"/>
-    </net>
-    <net code="68" name="Net-(U11-Pad4)">
-      <node ref="U11" pin="4"/>
-    </net>
-    <net code="69" name="/CS_EEP">
+    <net code="60" name="/CS_EEP">
       <node ref="U9" pin="1"/>
       <node ref="U2" pin="51"/>
     </net>
-    <net code="70" name="Net-(C19-Pad2)">
-      <node ref="U2" pin="2"/>
-      <node ref="C19" pin="2"/>
+    <net code="61" name="/CS_NRF">
+      <node ref="U8" pin="4"/>
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="62" name="/MISO">
+      <node ref="U8" pin="7"/>
+      <node ref="U2" pin="35"/>
+      <node ref="U9" pin="2"/>
+      <node ref="U7" pin="13"/>
+    </net>
+    <net code="63" name="/CE_NRF">
+      <node ref="U2" pin="53"/>
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="64" name="/SCK">
+      <node ref="U7" pin="12"/>
+      <node ref="U8" pin="5"/>
+      <node ref="U2" pin="37"/>
+      <node ref="U9" pin="6"/>
+    </net>
+    <net code="65" name="/IRQ_NRF">
+      <node ref="U2" pin="31"/>
+      <node ref="U8" pin="8"/>
+    </net>
+    <net code="66" name="Net-(U11-Pad4)">
+      <node ref="U11" pin="4"/>
+    </net>
+    <net code="67" name="Net-(FB3-Pad2)">
+      <node ref="FB3" pin="2"/>
+      <node ref="U11" pin="7"/>
+      <node ref="U11" pin="6"/>
+    </net>
+    <net code="68" name="Net-(C19-Pad2)">
       <node ref="X1" pin="1"/>
+      <node ref="C19" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="69" name="/NET_SCK">
+      <node ref="U4" pin="5"/>
+      <node ref="U2" pin="27"/>
+    </net>
+    <net code="70" name="/NET_MOSI">
+      <node ref="U4" pin="6"/>
+      <node ref="U2" pin="26"/>
+      <node ref="U6" pin="2"/>
     </net>
     <net code="71" name="Net-(U4-Pad8)">
       <node ref="U4" pin="8"/>
@@ -1329,52 +1462,62 @@
     <net code="73" name="Net-(U4-Pad10)">
       <node ref="U4" pin="10"/>
     </net>
-    <net code="74" name="/BOOTMODE">
-      <node ref="P3" pin="1"/>
-      <node ref="U2" pin="32"/>
+    <net code="74" name="Net-(P4-Pad6)">
+      <node ref="P4" pin="6"/>
     </net>
-    <net code="75" name="/SWCLK">
-      <node ref="P4" pin="4"/>
-      <node ref="U2" pin="57"/>
+    <net code="75" name="Net-(P4-Pad8)">
+      <node ref="P4" pin="8"/>
     </net>
-    <net code="76" name="/SWDIO">
-      <node ref="U2" pin="58"/>
-      <node ref="P4" pin="2"/>
-    </net>
-    <net code="77" name="/VDDANA">
-      <node ref="U2" pin="8"/>
+    <net code="76" name="/VDDANA">
       <node ref="C20" pin="1"/>
-      <node ref="FB2" pin="1"/>
+      <node ref="U2" pin="8"/>
       <node ref="C5" pin="1"/>
+      <node ref="FB2" pin="1"/>
     </net>
-    <net code="78" name="Net-(U7-Pad16)">
-      <node ref="U7" pin="16"/>
-    </net>
-    <net code="79" name="Net-(U7-Pad1)">
+    <net code="77" name="Net-(U7-Pad1)">
       <node ref="U7" pin="1"/>
     </net>
-    <net code="80" name="Net-(U7-Pad3)">
+    <net code="78" name="/IRQ_RFM">
+      <node ref="U2" pin="30"/>
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="79" name="Net-(U7-Pad3)">
       <node ref="U7" pin="3"/>
     </net>
-    <net code="81" name="Net-(U7-Pad4)">
+    <net code="80" name="Net-(U7-Pad4)">
       <node ref="U7" pin="4"/>
     </net>
-    <net code="82" name="Net-(U7-Pad5)">
+    <net code="81" name="Net-(U7-Pad5)">
       <node ref="U7" pin="5"/>
     </net>
-    <net code="83" name="Net-(U7-Pad6)">
+    <net code="82" name="Net-(U7-Pad6)">
       <node ref="U7" pin="6"/>
     </net>
-    <net code="84" name="Net-(U7-Pad7)">
+    <net code="83" name="Net-(U7-Pad7)">
       <node ref="U7" pin="7"/>
     </net>
-    <net code="85" name="/D-">
-      <node ref="U2" pin="45"/>
-      <node ref="R6" pin="2"/>
+    <net code="84" name="/MOSI">
+      <node ref="U9" pin="5"/>
+      <node ref="U8" pin="6"/>
+      <node ref="U2" pin="36"/>
+      <node ref="U7" pin="14"/>
     </net>
-    <net code="86" name="/D+">
-      <node ref="U2" pin="46"/>
-      <node ref="R7" pin="2"/>
+    <net code="85" name="/CS_RFM">
+      <node ref="U7" pin="15"/>
+      <node ref="U2" pin="29"/>
+    </net>
+    <net code="86" name="Net-(U7-Pad16)">
+      <node ref="U7" pin="16"/>
+    </net>
+    <net code="87" name="/SWCLK">
+      <node ref="U2" pin="57"/>
+      <node ref="P5" pin="1"/>
+      <node ref="P4" pin="4"/>
+    </net>
+    <net code="88" name="/SWDIO">
+      <node ref="P4" pin="2"/>
+      <node ref="U2" pin="58"/>
+      <node ref="P5" pin="5"/>
     </net>
   </nets>
 </export>

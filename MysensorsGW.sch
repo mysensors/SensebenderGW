@@ -119,12 +119,14 @@ L CRYSTAL X1
 U 1 1 552433C5
 P 3950 2600
 F 0 "X1" H 3950 2690 30  0000 C CNN
-F 1 "32Khz" H 3900 2750 30  0000 L CNN
+F 1 "32.768hz" H 3850 2750 30  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 3950 2600 60  0001 C CNN
-F 3 "" H 3950 2600 60  0000 C CNN
-F 4 "mouser" H 2550 3950 60  0001 C CNN "Supplier1"
-F 5 "732-FA-23820A50XG3" H 3950 2600 60  0001 C CNN "Supplier1 part"
-F 6 "Epson" H 3950 2600 60  0001 C CNN "Vendor"
+F 3 "http://www.mouser.com/ds/2/3/ABS07-120-32.768kHz-T-218607.pdf" H 3950 2600 60  0001 C CNN
+F 4 "Abracon" H 3950 2600 60  0001 C CNN "Vendor"
+F 5 "mouser" H 2550 3950 60  0001 C CNN "Supplier1"
+F 6 "815-ABS0712032.768KT" H 3950 2600 60  0001 C CNN "Supplier1 partno"
+F 7 "http://dk.mouser.com/Search/ProductDetail.aspx?R=ABS07-120-32.768kHz-Tvirtualkey52750000virtualkey815-ABS0712032.768KT" H 3950 2600 60  0001 C CNN "Supplier1 link"
+F 8 "ABS07-120-32.768kHz-T" H 3950 2600 60  0001 C CNN "Vendor partno"
 	1    3950 2600
 	-1   0    0    1   
 $EndComp
@@ -193,6 +195,8 @@ F 0 "C11" V 6000 850 50  0000 L CNN
 F 1 "100nF" V 5900 700 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6088 650 30  0001 C CNN
 F 3 "" H 6050 800 60  0000 C CNN
+F 4 "Mouser" H 6050 800 60  0001 C CNN "Supplier1"
+F 5 "81-GRM39X104K16J" H 6050 800 60  0001 C CNN "Supplier1 partno"
 	1    6050 800 
 	0    1    1    0   
 $EndComp
@@ -205,7 +209,7 @@ F 1 "100nF" H 1825 900 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1838 850 30  0001 C CNN
 F 3 "" H 1800 1000 60  0000 C CNN
 F 4 "mouser" H 2550 3950 60  0001 C CNN "Supplier1"
-F 5 "81-GRM39X104K16" H 1800 1000 60  0001 C CNN "Supplier1 part"
+F 5 "81-GRM39X104K16J" H 1800 1000 60  0001 C CNN "Supplier1 partno"
 	1    1800 1000
 	1    0    0    -1  
 $EndComp
@@ -218,7 +222,7 @@ F 1 "100nF" H 2075 900 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2088 850 30  0001 C CNN
 F 3 "" H 2050 1000 60  0000 C CNN
 F 4 "mouser" H 2550 3950 60  0001 C CNN "Supplier1"
-F 5 "81-GRM39X104K16" H 2050 1000 60  0001 C CNN "Supplier1 part"
+F 5 "81-GRM39X104K16J" H 2050 1000 60  0001 C CNN "Supplier1 partno"
 	1    2050 1000
 	1    0    0    -1  
 $EndComp
@@ -231,7 +235,7 @@ F 1 "100nF" H 2325 900 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2338 850 30  0001 C CNN
 F 3 "" H 2300 1000 60  0000 C CNN
 F 4 "mouser" H 2550 3950 60  0001 C CNN "Supplier1"
-F 5 "81-GRM39X104K16" H 2300 1000 60  0001 C CNN "Supplier1 part"
+F 5 "81-GRM39X104K16J" H 2300 1000 60  0001 C CNN "Supplier1 partno"
 	1    2300 1000
 	1    0    0    -1  
 $EndComp
@@ -307,7 +311,7 @@ F 1 "100nF" V 9500 800 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9688 750 30  0001 C CNN
 F 3 "" H 9650 900 60  0000 C CNN
 F 4 "mouser" H 2550 3950 60  0001 C CNN "Supplier1"
-F 5 "81-GRM39X104K16" V 9650 900 60  0001 C CNN "Supplier1 part"
+F 5 "81-GRM39X104K16J" H 9650 900 60  0001 C CNN "Supplier1 partno"
 	1    9650 900 
 	0    1    1    0   
 $EndComp
@@ -388,7 +392,7 @@ F 1 "100nF" H 9575 5050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9588 5000 30  0001 C CNN
 F 3 "" H 9550 5150 60  0000 C CNN
 F 4 "mouser" H 2550 3950 60  0001 C CNN "Supplier1"
-F 5 "81-GRM39X104K16" H 9550 5150 60  0001 C CNN "Supplier1 part"
+F 5 "81-GRM39X104K16J" H 9550 5150 60  0001 C CNN "Supplier1 partno"
 	1    9550 5150
 	1    0    0    -1  
 $EndComp
@@ -401,7 +405,7 @@ F 1 "100nF" H 10525 5050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 10538 5000 30  0001 C CNN
 F 3 "" H 10500 5150 60  0000 C CNN
 F 4 "mouser" H 2550 3950 60  0001 C CNN "Supplier1"
-F 5 "81-GRM39X104K16" H 10500 5150 60  0001 C CNN "Supplier1 part"
+F 5 "81-GRM39X104K16J" H 10500 5150 60  0001 C CNN "Supplier1 partno"
 	1    10500 5150
 	1    0    0    -1  
 $EndComp
@@ -729,7 +733,7 @@ F 1 "100nF" H 4175 1000 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4188 950 30  0001 C CNN
 F 3 "" H 4150 1100 60  0000 C CNN
 F 4 "mouser" H 2550 3950 60  0001 C CNN "Supplier1"
-F 5 "81-GRM39X104K16" H 4150 1100 60  0001 C CNN "Supplier1 part"
+F 5 "81-GRM39X104K16J" H 4150 1100 60  0001 C CNN "Supplier1 partno"
 	1    4150 1100
 	1    0    0    -1  
 $EndComp
@@ -742,7 +746,7 @@ F 1 "100nF" H 1475 1050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1488 1000 30  0001 C CNN
 F 3 "" H 1450 1150 60  0000 C CNN
 F 4 "mouser" H 2550 3950 60  0001 C CNN "Supplier1"
-F 5 "81-GRM39X104K16" H 1450 1150 60  0001 C CNN "Supplier1 part"
+F 5 "81-GRM39X104K16J" H 1450 1150 60  0001 C CNN "Supplier1 partno"
 	1    1450 1150
 	1    0    0    -1  
 $EndComp
@@ -1520,7 +1524,7 @@ F1 54 95 14 9F EF 69 AF 2F E5 68 0C 80 4D C9 83 B8 C7 32 D7 FA 45 6F 95 BF E8 F3
 88 3B 00 28 44 DC 01 40 21 E2 0E 00 0A 11 77 00 50 88 B8 03 80 42 C4 1D 00 14 22 EE 00 A0 10 71 
 07 00 85 88 3B 00 28 44 DC 01 40 21 E2 0E 00 0A 11 77 00 50 88 B8 03 80 42 C4 1D 00 14 22 EE 00 
 A0 10 71 07 00 85 88 3B 00 28 F4 2F 6E 0E 73 66 69 F5 31 42 00 00 00 00 49 45 4E 44 AE 42 60 82 
-78 
+FF 
 EndData
 $EndBitmap
 Text Label 10550 3500 0    60   ~ 0
@@ -1653,7 +1657,7 @@ F 1 "100nF" H 1775 2200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1788 2150 30  0001 C CNN
 F 3 "" H 1750 2300 60  0000 C CNN
 F 4 "mouser" H 2550 3950 60  0001 C CNN "Supplier1"
-F 5 "81-GRM39X104K16" H 1750 2300 60  0001 C CNN "Supplier1 part"
+F 5 "81-GRM39X104K16J" H 1750 2300 60  0001 C CNN "Supplier1 partno"
 	1    1750 2300
 	1    0    0    -1  
 $EndComp
@@ -1670,21 +1674,14 @@ L C C18
 U 1 1 55A1C3E3
 P 3600 2400
 F 0 "C18" H 3625 2500 50  0000 L CNN
-F 1 "C" H 3625 2300 50  0000 L CNN
+F 1 "3pF" H 3625 2300 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3638 2250 30  0001 C CNN
-F 3 "" H 3600 2400 60  0000 C CNN
+F 3 "http://www.mouser.com/ds/2/40/useries-37712.pdf" H 3600 2400 60  0001 C CNN
+F 4 "AVX" H 3600 2400 60  0001 C CNN "Vendor"
+F 5 "Mouser" H 3600 2400 60  0001 C CNN "Supplier1"
+F 6 "581-06035U3R0B" H 3600 2400 60  0001 C CNN "Supplier1 partno"
+F 7 "06035U3R0BAT2A" H 3600 2400 60  0001 C CNN "Vendor partno"
 	1    3600 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C19
-U 1 1 55A1C427
-P 4250 2400
-F 0 "C19" H 4275 2500 50  0000 L CNN
-F 1 "C" H 4275 2300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4288 2250 30  0001 C CNN
-F 3 "" H 4250 2400 60  0000 C CNN
-	1    4250 2400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1857,7 +1854,7 @@ F 1 "100nF" H 2575 900 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2588 850 30  0001 C CNN
 F 3 "" H 2550 1000 60  0000 C CNN
 F 4 "mouser" H 2550 3950 60  0001 C CNN "Supplier1"
-F 5 "81-GRM39X104K16" H 2550 1000 60  0001 C CNN "Supplier1 part"
+F 5 "81-GRM39X104K16J" H 2550 1000 60  0001 C CNN "Supplier1 partno"
 	1    2550 1000
 	1    0    0    -1  
 $EndComp
@@ -1927,7 +1924,7 @@ F 1 "100nF" V 8000 800 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8188 750 30  0001 C CNN
 F 3 "" H 8150 900 60  0000 C CNN
 F 4 "mouser" H 1050 3950 60  0001 C CNN "Supplier1"
-F 5 "81-GRM39X104K16" V 8150 900 60  0001 C CNN "Supplier1 part"
+F 5 "81-GRM39X104K16J" H 8150 900 60  0001 C CNN "Supplier1 partno"
 	1    8150 900 
 	0    1    1    0   
 $EndComp
@@ -1940,7 +1937,7 @@ F 1 "100nF" H 2875 2000 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2888 1950 30  0001 C CNN
 F 3 "" H 2850 2100 60  0000 C CNN
 F 4 "mouser" H 3950 4900 60  0001 C CNN "Supplier1"
-F 5 "81-GRM39X104K16" H 2850 2100 60  0001 C CNN "Supplier1 part"
+F 5 "81-GRM39X104K16J" H 2850 2100 60  0001 C CNN "Supplier1 partno"
 	1    2850 2100
 	1    0    0    -1  
 $EndComp
@@ -2728,4 +2725,19 @@ Wire Wire Line
 	3850 6200 3850 6650
 Wire Wire Line
 	3850 6650 3650 6650
+$Comp
+L C C19
+U 1 1 55B3A3CD
+P 4250 2400
+F 0 "C19" H 4275 2500 50  0000 L CNN
+F 1 "3pF" H 4275 2300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4288 2250 30  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/40/useries-37712.pdf" H 4250 2400 60  0001 C CNN
+F 4 "AVX" H 4250 2400 60  0001 C CNN "Vendor"
+F 5 "Mouser" H 4250 2400 60  0001 C CNN "Supplier1"
+F 6 "581-06035U3R0B" H 4250 2400 60  0001 C CNN "Supplier1 partno"
+F 7 "06035U3R0BAT2A" H 4250 2400 60  0001 C CNN "Vendor partno"
+	1    4250 2400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
