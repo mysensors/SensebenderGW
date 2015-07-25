@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-09 BZR 5648)-product   date = lør 25 jul 2015 13:22:55 CEST
+Cmp-Mod V01 Created by Cvpcb (2015-05-09 BZR 5648)-product   date = lør 25 jul 2015 23:56:38 CEST
 
 BeginCmp
 TimeStamp = /556612CD;
@@ -214,7 +214,7 @@ BeginCmp
 TimeStamp = /55627F44;
 Reference = P1;
 ValeurCmp = ANT;
-IdModule  = Pin_Headers:Pin_Header_Angled_1x01;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
 EndCmp
 
 BeginCmp
@@ -228,7 +228,7 @@ BeginCmp
 TimeStamp = /55A16DD0;
 Reference = P3;
 ValeurCmp = BOOTMODE;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+IdModule  = Discret:TEST_POINT_2PADS;
 EndCmp
 
 BeginCmp
