@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/thomas/Projects/kicad/MysensorsGW/MysensorsGW.sch</source>
-    <date>lør 25 jul 2015 20:22:42 CEST</date>
+    <date>søn 26 jul 2015 13:39:45 CEST</date>
     <tool>Eeschema (2015-05-09 BZR 5648)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -36,9 +36,9 @@
       <fields>
         <field name="Vendor">Abracon</field>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 partno">815-ABS0712032.768KT</field>
+        <field name="Supplier1 part">815-ABS0712032.768KT</field>
         <field name="Supplier1 link">http://dk.mouser.com/Search/ProductDetail.aspx?R=ABS07-120-32.768kHz-Tvirtualkey52750000virtualkey815-ABS0712032.768KT</field>
-        <field name="Vendor partno">ABS07-120-32.768kHz-T</field>
+        <field name="Vendor part">ABS07-120-32.768kHz-T</field>
       </fields>
       <libsource lib="MysensorsGW-cache" part="CRYSTAL"/>
       <sheetpath names="/" tstamps="/"/>
@@ -49,7 +49,7 @@
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <fields>
         <field name="Supplier1">Mouser</field>
-        <field name="Supplier1 partno">81-GRM39X104K16J</field>
+        <field name="Supplier1 part">81-GRM39X104K16J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -60,7 +60,7 @@
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <fields>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 partno">81-GRM39X104K16J</field>
+        <field name="Supplier1 part">81-GRM39X104K16J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -71,7 +71,7 @@
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <fields>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 partno">81-GRM39X104K16J</field>
+        <field name="Supplier1 part">81-GRM39X104K16J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -82,7 +82,7 @@
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <fields>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 partno">81-GRM39X104K16J</field>
+        <field name="Supplier1 part">81-GRM39X104K16J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -100,7 +100,7 @@
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <fields>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 partno">81-GRM39X104K16J</field>
+        <field name="Supplier1 part">81-GRM39X104K16J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -129,7 +129,7 @@
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <fields>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 partno">81-GRM39X104K16J</field>
+        <field name="Supplier1 part">81-GRM39X104K16J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -140,7 +140,7 @@
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <fields>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 partno">81-GRM39X104K16J</field>
+        <field name="Supplier1 part">81-GRM39X104K16J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -191,7 +191,7 @@
     </comp>
     <comp ref="P1">
       <value>ANT</value>
-      <footprint>Pin_Headers:Pin_Header_Angled_1x01</footprint>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x01</footprint>
       <libsource lib="conn" part="CONN_01X01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55627F44</tstamp>
@@ -267,7 +267,7 @@
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <fields>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 partno">81-GRM39X104K16J</field>
+        <field name="Supplier1 part">81-GRM39X104K16J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -278,7 +278,7 @@
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <fields>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 partno">81-GRM39X104K16J</field>
+        <field name="Supplier1 part">81-GRM39X104K16J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -329,7 +329,7 @@
     </comp>
     <comp ref="P3">
       <value>BOOTMODE</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <footprint>Discret:TEST_POINT_2PADS</footprint>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55A16DD0</tstamp>
@@ -339,7 +339,7 @@
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <fields>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 partno">81-GRM39X104K16J</field>
+        <field name="Supplier1 part">81-GRM39X104K16J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -352,8 +352,8 @@
       <fields>
         <field name="Vendor">AVX</field>
         <field name="Supplier1">Mouser</field>
-        <field name="Supplier1 partno">581-06035U3R0B</field>
-        <field name="Vendor partno">06035U3R0BAT2A</field>
+        <field name="Supplier1 part">581-06035U3R0B</field>
+        <field name="Vendor part">06035U3R0BAT2A</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -402,7 +402,7 @@
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <fields>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 partno">81-GRM39X104K16J</field>
+        <field name="Supplier1 part">81-GRM39X104K16J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -415,8 +415,8 @@
       <fields>
         <field name="Vendor">Vishay</field>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 partno">77-VJ0603Y102JXJPBC</field>
-        <field name="Vendor partno">VJ0603Y102JXJPW1BCccccc½</field>
+        <field name="Supplier1 part">77-VJ0603Y102JXJPBC</field>
+        <field name="Vendor part">VJ0603Y102JXJPW1BCccccc½</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -439,7 +439,7 @@
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <fields>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 partno">81-GRM39X104K16J</field>
+        <field name="Supplier1 part">81-GRM39X104K16J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -450,19 +450,21 @@
       <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
       <fields>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 partno">81-GRM39X104K16J</field>
+        <field name="Supplier1 part">81-GRM39X104K16J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55A436A7</tstamp>
     </comp>
     <comp ref="SW1">
-      <value>SW_PUSH</value>
+      <value>Reset</value>
       <footprint>Buttons_Switches_SMD:SW_SPST_PTS645</footprint>
-      <datasheet>http://www.mouser.com/ds/2/418/NG_CD_2-1437565-7_V-689165.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/418/NG_CD_147873_K3-656557.pdf</datasheet>
       <fields>
         <field name="Vendor">TE Connectivity</field>
-        <field name="Vendor partno">FSM2JSMAATR</field>
+        <field name="Supplier1">Mouser</field>
+        <field name="Supplier1 part">506-147873-2</field>
+        <field name="Vendor part">147873-2</field>
       </fields>
       <libsource lib="device" part="SW_PUSH"/>
       <sheetpath names="/" tstamps="/"/>
@@ -558,8 +560,8 @@
       <fields>
         <field name="Vendor">AVX</field>
         <field name="Supplier1">Mouser</field>
-        <field name="Supplier1 partno">581-06035U3R0B</field>
-        <field name="Vendor partno">06035U3R0BAT2A</field>
+        <field name="Supplier1 part">581-06035U3R0B</field>
+        <field name="Vendor part">06035U3R0BAT2A</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -584,8 +586,8 @@
       <fields>
         <field name="Vendor">Vishay</field>
         <field name="Supplier1">mouser</field>
-        <field name="Supplier1 partno">77-VJ0603Y102JXJPBC</field>
-        <field name="Vendor partno">VJ0603Y102JXJPW1BCccccc½</field>
+        <field name="Supplier1 part">77-VJ0603Y102JXJPBC</field>
+        <field name="Vendor part">VJ0603Y102JXJPW1BCccccc½</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -593,172 +595,6 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="mysensors_sensors" part="Si7021">
-      <description>Humidity / Temperature sensor</description>
-      <footprints>
-        <fp>DFN6</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">Si7021</field>
-      </fields>
-      <pins>
-        <pin num="1" name="SDA" type="input"/>
-        <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="~" type="NotConnected"/>
-        <pin num="4" name="~" type="NotConnected"/>
-        <pin num="5" name="VCC" type="power_in"/>
-        <pin num="6" name="SCL" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="C">
-      <description>Unpolarized capacitor</description>
-      <footprints>
-        <fp>C?</fp>
-        <fp>C_????_*</fp>
-        <fp>C_????</fp>
-        <fp>SMD*_c</fp>
-        <fp>Capacitor*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="CP">
-      <description>Polarised capacitor</description>
-      <footprints>
-        <fp>CP*</fp>
-        <fp>Elko*</fp>
-        <fp>TantalC*</fp>
-        <fp>C*elec</fp>
-        <fp>c_elec*</fp>
-        <fp>SMD*_Pol</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">CP</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="FILTER">
-      <description>Filtre EMI</description>
-      <fields>
-        <field name="Reference">FB</field>
-        <field name="Value">FILTER</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="LED">
-      <footprints>
-        <fp>LED-3MM</fp>
-        <fp>LED-5MM</fp>
-        <fp>LED-10MM</fp>
-        <fp>LED-0603</fp>
-        <fp>LED-0805</fp>
-        <fp>LED-1206</fp>
-        <fp>LEDV</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">LED</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="R">
-      <description>Resistor</description>
-      <footprints>
-        <fp>R_*</fp>
-        <fp>Resistor_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="SW_PUSH">
-      <description>Push Button</description>
-      <fields>
-        <field name="Reference">SW</field>
-        <field name="Value">SW_PUSH</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X01">
-      <footprints>
-        <fp>Pin_Header_Straight_1X01</fp>
-        <fp>Pin_Header_Angled_1X01</fp>
-        <fp>Socket_Strip_Straight_1X01</fp>
-        <fp>Socket_Strip_Angled_1X01</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X01</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X02">
-      <footprints>
-        <fp>Pin_Header_Straight_1X02</fp>
-        <fp>Pin_Header_Angled_1X02</fp>
-        <fp>Socket_Strip_Straight_1X02</fp>
-        <fp>Socket_Strip_Angled_1X02</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X02</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="USB-MINI-B">
-      <aliases>
-        <alias>USB-MICRO-B</alias>
-      </aliases>
-      <description>USB Mini B connector</description>
-      <footprints>
-        <fp>USB-Mini-B-Jack</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">CON</field>
-        <field name="Value">USB-MINI-B</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VBUS" type="power_in"/>
-        <pin num="2" name="D-" type="BiDi"/>
-        <pin num="3" name="D+" type="BiDi"/>
-        <pin num="4" name="ID" type="BiDi"/>
-        <pin num="5" name="GND" type="power_in"/>
-        <pin num="6" name="SHELL1" type="passive"/>
-        <pin num="7" name="SHELL2" type="passive"/>
-        <pin num="8" name="SHELL3" type="passive"/>
-        <pin num="9" name="SHELL4" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="memory" part="AT24CS32-STUM">
       <description>AT24CS32-STUM, 32Kb (4096x8) Serial EEPROM with Unique Serial Number, SOT-23-5</description>
       <docs>http://www.atmel.com/Images/Atmel-8869-SEEPROM-AT24CS32-Datasheet.pdf</docs>
@@ -779,39 +615,6 @@
         <pin num="5" name="WP" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="mysensors_security" part="ATSHA204A">
-      <description>ATSHA204A, Secure Authentication and Validation Device, SOT-23, Vcc=3.3V</description>
-      <docs>http://www.atmel.com/Images/Atmel-8885-CryptoAuth-ATSHA204A-Datasheet.pdf</docs>
-      <footprints>
-        <fp>SOT-23*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">ATSHA204A</field>
-        <field name="Footprint">SOT-23_Handsoldering</field>
-      </fields>
-      <pins>
-        <pin num="1" name="SDA" type="BiDi"/>
-        <pin num="2" name="VCC" type="power_in"/>
-        <pin num="3" name="GND" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="mysensors_regulators" part="AMS1117">
-      <description>1A LDO Voltage Regulator</description>
-      <docs>http://www.advanced-monolithic.com/pdf/ds1117.pdf</docs>
-      <footprints>
-        <fp>SMD_Packages:SOT-223</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">AMS1117</field>
-      </fields>
-      <pins>
-        <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="VO" type="power_out"/>
-        <pin num="3" name="VI" type="power_in"/>
-      </pins>
-    </libpart>
     <libpart lib="mysensors_radios" part="NRF24L01">
       <description>NRF24L01+</description>
       <fields>
@@ -827,23 +630,6 @@
         <pin num="6" name="MOSI" type="input"/>
         <pin num="7" name="MISO" type="input"/>
         <pin num="8" name="IRQ" type="output"/>
-      </pins>
-    </libpart>
-    <libpart lib="mysensors_network" part="ESP8266">
-      <description>ESP8266 WiFi module</description>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">ESP8266</field>
-      </fields>
-      <pins>
-        <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="TXD" type="output"/>
-        <pin num="3" name="GPIO2" type="input"/>
-        <pin num="4" name="CH_PD" type="input"/>
-        <pin num="5" name="GPIO0" type="input"/>
-        <pin num="6" name="RST" type="input"/>
-        <pin num="7" name="RXD" type="input"/>
-        <pin num="8" name="VCC" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="mysensors_radios" part="RFM69HW">
@@ -876,6 +662,78 @@
         <pin num="16" name="NC" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MysensorsGW-cache" part="CRYSTAL">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CRYSTAL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="FILTER">
+      <description>Filtre EMI</description>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FILTER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mysensors_network" part="ESP8266">
+      <description>ESP8266 WiFi module</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP8266</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TXD" type="output"/>
+        <pin num="3" name="GPIO2" type="input"/>
+        <pin num="4" name="CH_PD" type="input"/>
+        <pin num="5" name="GPIO0" type="input"/>
+        <pin num="6" name="RST" type="input"/>
+        <pin num="7" name="RXD" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
     <libpart lib="mysensors_memories" part="AT25DF512C">
       <description>AT25DF512C, 512-Kbit SPI Serial Flash Memory, SOIC-8, Vcc=3.3V</description>
       <docs>http://www.adestotech.com/wp-content/uploads/DS-AT25DF512C-030.pdf</docs>
@@ -895,41 +753,119 @@
         <pin num="8" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="mysensors_network" part="W5100">
-      <description>Wiznet W5100</description>
+    <libpart lib="conn" part="USB-MINI-B">
+      <aliases>
+        <alias>USB-MICRO-B</alias>
+      </aliases>
+      <description>USB Mini B connector</description>
+      <footprints>
+        <fp>USB-Mini-B-Jack</fp>
+      </footprints>
       <fields>
-        <field name="Reference">U</field>
-        <field name="Value">W5100</field>
+        <field name="Reference">CON</field>
+        <field name="Value">USB-MINI-B</field>
       </fields>
       <pins>
-        <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="VCC" type="power_in"/>
-        <pin num="3" name="RST" type="input"/>
-        <pin num="4" name="CS" type="input"/>
-        <pin num="5" name="SCK" type="input"/>
-        <pin num="6" name="MOSI" type="input"/>
-        <pin num="7" name="MISO" type="output"/>
-        <pin num="8" name="N/A" type="NotConnected"/>
-        <pin num="9" name="N/A" type="NotConnected"/>
-        <pin num="10" name="N/A" type="NotConnected"/>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="BiDi"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="SHELL1" type="passive"/>
+        <pin num="7" name="SHELL2" type="passive"/>
+        <pin num="8" name="SHELL3" type="passive"/>
+        <pin num="9" name="SHELL4" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="mysensors_connectors" part="Debug">
-      <description>Cortex M debug connector</description>
+    <libpart lib="mysensors_security" part="ATSHA204A">
+      <description>ATSHA204A, Secure Authentication and Validation Device, SOT-23, Vcc=3.3V</description>
+      <docs>http://www.atmel.com/Images/Atmel-8885-CryptoAuth-ATSHA204A-Datasheet.pdf</docs>
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATSHA204A</field>
+        <field name="Footprint">SOT-23_Handsoldering</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="BiDi"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Push Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mysensors_connectors" part="MYSX_1.5">
+      <description>Mysensors expansion connector 1.5</description>
+      <docs>http://github.com/mysensors-kicad/documentation/raw/master/TheMYSXconnector.pdf</docs>
+      <footprints>
+        <fp>MYSX_1.5</fp>
+      </footprints>
       <fields>
         <field name="Reference">P</field>
-        <field name="Value">Debug</field>
+        <field name="Value">MYSX_1.5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vraw" type="passive"/>
+        <pin num="2" name="+3.3V" type="passive"/>
+        <pin num="3" name="VCCio" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="D1_DFM" type="passive"/>
+        <pin num="6" name="D2_DTM" type="passive"/>
+        <pin num="7" name="A1" type="passive"/>
+        <pin num="8" name="A2" type="passive"/>
+        <pin num="9" name="D3_INT" type="passive"/>
+        <pin num="10" name="D4_INT" type="passive"/>
+        <pin num="11" name="D5_PWM" type="passive"/>
+        <pin num="12" name="D6_PWM" type="passive"/>
+        <pin num="13" name="D7_SCL" type="passive"/>
+        <pin num="14" name="D8_SDA" type="passive"/>
+        <pin num="15" name="D9_A3" type="passive"/>
+        <pin num="16" name="D10_A4" type="passive"/>
+        <pin num="17" name="D11_MOSI" type="passive"/>
+        <pin num="18" name="D12_MISO" type="passive"/>
+        <pin num="19" name="D13_SCK" type="passive"/>
+        <pin num="20" name="D14_CS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
       </fields>
       <pins>
         <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-        <pin num="8" name="P8" type="passive"/>
-        <pin num="9" name="P9" type="passive"/>
-        <pin num="10" name="P10" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="mysensors_mcu" part="ATSAMD21J">
@@ -1005,74 +941,122 @@
         <pin num="64" name="PB03/AIN3" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="mysensors_connectors" part="MYSX_1.5">
-      <description>Mysensors expansion connector 1.5</description>
-      <docs>http://github.com/mysensors-kicad/documentation/raw/master/TheMYSXconnector.pdf</docs>
+    <libpart lib="device" part="LED">
       <footprints>
-        <fp>MYSX_1.5</fp>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
       </footprints>
       <fields>
-        <field name="Reference">P</field>
-        <field name="Value">MYSX_1.5</field>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
       </fields>
       <pins>
-        <pin num="1" name="Vraw" type="passive"/>
-        <pin num="2" name="+3.3V" type="passive"/>
-        <pin num="3" name="VCCio" type="passive"/>
-        <pin num="4" name="GND" type="passive"/>
-        <pin num="5" name="D1_DFM" type="passive"/>
-        <pin num="6" name="D2_DTM" type="passive"/>
-        <pin num="7" name="A1" type="passive"/>
-        <pin num="8" name="A2" type="passive"/>
-        <pin num="9" name="D3_INT" type="passive"/>
-        <pin num="10" name="D4_INT" type="passive"/>
-        <pin num="11" name="D5_PWM" type="passive"/>
-        <pin num="12" name="D6_PWM" type="passive"/>
-        <pin num="13" name="D7_SCL" type="passive"/>
-        <pin num="14" name="D8_SDA" type="passive"/>
-        <pin num="15" name="D9_A3" type="passive"/>
-        <pin num="16" name="D10_A4" type="passive"/>
-        <pin num="17" name="D11_MOSI" type="passive"/>
-        <pin num="18" name="D12_MISO" type="passive"/>
-        <pin num="19" name="D13_SCK" type="passive"/>
-        <pin num="20" name="D14_CS" type="passive"/>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MysensorsGW-cache" part="CRYSTAL">
+    <libpart lib="mysensors_network" part="W5100">
+      <description>Wiznet W5100</description>
       <fields>
-        <field name="Reference">X</field>
-        <field name="Value">CRYSTAL</field>
+        <field name="Reference">U</field>
+        <field name="Value">W5100</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="RST" type="input"/>
+        <pin num="4" name="CS" type="input"/>
+        <pin num="5" name="SCK" type="input"/>
+        <pin num="6" name="MOSI" type="input"/>
+        <pin num="7" name="MISO" type="output"/>
+        <pin num="8" name="N/A" type="NotConnected"/>
+        <pin num="9" name="N/A" type="NotConnected"/>
+        <pin num="10" name="N/A" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="mysensors_connectors" part="Debug">
+      <description>Cortex M debug connector</description>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">Debug</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="mysensors_regulators" part="AMS1117">
+      <description>1A LDO Voltage Regulator</description>
+      <docs>http://www.advanced-monolithic.com/pdf/ds1117.pdf</docs>
+      <footprints>
+        <fp>SMD_Packages:SOT-223</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="mysensors_sensors" part="Si7021">
+      <description>Humidity / Temperature sensor</description>
+      <footprints>
+        <fp>DFN6</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Si7021</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="~" type="NotConnected"/>
+        <pin num="4" name="~" type="NotConnected"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
   </libparts>
   <libraries>
-    <library logical="mysensors_sensors">
-      <uri>/home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_sensors.lib</uri>
-    </library>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
-    </library>
     <library logical="memory">
       <uri>/usr/share/kicad/library/memory.lib</uri>
     </library>
-    <library logical="mysensors_security">
-      <uri>/home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_security.lib</uri>
-    </library>
-    <library logical="mysensors_regulators">
-      <uri>/home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_regulators.lib</uri>
-    </library>
     <library logical="mysensors_memories">
       <uri>/home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_memories.lib</uri>
-    </library>
-    <library logical="mysensors_radios">
-      <uri>/home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_radios.lib</uri>
     </library>
     <library logical="mysensors_network">
       <uri>/home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_network.lib</uri>
@@ -1080,11 +1064,29 @@
     <library logical="mysensors_mcu">
       <uri>/home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_mcu.lib</uri>
     </library>
+    <library logical="mysensors_regulators">
+      <uri>/home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_regulators.lib</uri>
+    </library>
+    <library logical="mysensors_radios">
+      <uri>/home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_radios.lib</uri>
+    </library>
     <library logical="mysensors_connectors">
       <uri>/home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_connectors.lib</uri>
     </library>
     <library logical="MysensorsGW-cache">
       <uri>/home/thomas/Projects/kicad/MysensorsGW/MysensorsGW-cache.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="mysensors_security">
+      <uri>/home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_security.lib</uri>
+    </library>
+    <library logical="mysensors_sensors">
+      <uri>/home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_sensors.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
   </libraries>
   <nets>
