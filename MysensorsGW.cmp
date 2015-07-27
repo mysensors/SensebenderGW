@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-09 BZR 5648)-product   date = lør 25 jul 2015 23:56:38 CEST
+Cmp-Mod V01 Created by Cvpcb (2015-05-09 BZR 5648)-product   date = man 27 jul 2015 12:45:37 CEST
 
 BeginCmp
 TimeStamp = /556612CD;
@@ -92,7 +92,7 @@ IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /55833140;
+TimeStamp = /55B3E306;
 Reference = C14;
 ValeurCmp = 1nF;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
@@ -122,14 +122,14 @@ EndCmp
 BeginCmp
 TimeStamp = /55A1C3E3;
 Reference = C18;
-ValeurCmp = C;
+ValeurCmp = 3pF;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /55A1C427;
+TimeStamp = /55B3A3CD;
 Reference = C19;
-ValeurCmp = C;
+ValeurCmp = 3pF;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
@@ -158,6 +158,13 @@ BeginCmp
 TimeStamp = /55A82881;
 Reference = C23;
 ValeurCmp = 10nF;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B62037;
+Reference = C24;
+ValeurCmp = 1nF;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
@@ -204,9 +211,16 @@ IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /55B1F51E;
+TimeStamp = /55B3DC3D;
 Reference = FB3;
-ValeurCmp = 470R;
+ValeurCmp = 470R EMI;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B61413;
+Reference = FB4;
+ValeurCmp = 470R EMI;
 IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
@@ -228,7 +242,7 @@ BeginCmp
 TimeStamp = /55A16DD0;
 Reference = P3;
 ValeurCmp = BOOTMODE;
-IdModule  = Discret:TEST_POINT_2PADS;
+IdModule  = mysensors_obscurities:2_pin_solder_jumper_smd;
 EndCmp
 
 BeginCmp
@@ -311,8 +325,8 @@ EndCmp
 BeginCmp
 TimeStamp = /55A811E7;
 Reference = SW1;
-ValeurCmp = SW_PUSH;
-IdModule  = Buttons_Switches_SMD:SW_SPST_PTS645;
+ValeurCmp = Reset;
+IdModule  = mysensors_buttons:SW_SPST_SMD_J-LEAD_4.3MM;
 EndCmp
 
 BeginCmp
@@ -395,8 +409,8 @@ EndCmp
 BeginCmp
 TimeStamp = /552433C5;
 Reference = X1;
-ValeurCmp = 32Khz;
-IdModule  = Resistors_SMD:R_0805_HandSoldering;
+ValeurCmp = 32.768hz;
+IdModule  = mysensors_obscurities:XTAL_3.2x1.5mm;
 EndCmp
 
 EndListe

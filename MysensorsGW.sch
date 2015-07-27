@@ -120,7 +120,7 @@ U 1 1 552433C5
 P 3950 2600
 F 0 "X1" H 3950 2690 30  0000 C CNN
 F 1 "32.768hz" H 3850 2750 30  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 3950 2600 60  0001 C CNN
+F 2 "mysensors_obscurities:XTAL_3.2x1.5mm" H 3950 2600 60  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/3/ABS07-120-32.768kHz-T-218607.pdf" H 3950 2600 60  0001 C CNN
 F 4 "Abracon" H 3950 2600 60  0001 C CNN "Vendor"
 F 5 "mouser" H 2550 3950 60  0001 C CNN "Supplier1"
@@ -1608,7 +1608,7 @@ U 1 1 55A16DD0
 P 4150 4150
 F 0 "P3" H 4150 4300 50  0000 C CNN
 F 1 "BOOTMODE" V 4300 4150 50  0000 C CNN
-F 2 "Discret:TEST_POINT_2PADS" H 4150 4150 60  0001 C CNN
+F 2 "mysensors_obscurities:2_pin_solder_jumper_smd" H 4150 4150 60  0001 C CNN
 F 3 "" H 4150 4150 60  0000 C CNN
 	1    4150 4150
 	1    0    0    -1  
@@ -1938,7 +1938,7 @@ U 1 1 55A811E7
 P 1250 7100
 F 0 "SW1" H 1400 7210 50  0000 C CNN
 F 1 "Reset" H 1250 7020 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 1250 7100 60  0001 C CNN
+F 2 "mysensors_buttons:SW_SPST_SMD_J-LEAD_4.3MM" H 1250 7100 60  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/418/NG_CD_147873_K3-656557.pdf" H 1250 7100 60  0001 C CNN
 F 4 "TE Connectivity" H 1250 7100 60  0001 C CNN "Vendor"
 F 5 "Mouser" H 1250 7100 60  0001 C CNN "Supplier1"
@@ -2346,11 +2346,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 5500 7900 5450
 Wire Wire Line
-	7900 4750 7900 4700
-Wire Wire Line
-	7750 4750 7900 4750
-Wire Wire Line
-	7150 4800 7150 4750
+	7900 4750 7750 4750
 Wire Wire Line
 	7150 4750 7450 4750
 Wire Notes Line
@@ -2749,4 +2745,8 @@ F 7 "VJ0603Y102JXJPW1BCccccc½" H 4700 4500 60  0001 C CNN "Vendor part"
 $EndComp
 Wire Notes Line
 	8900 2450 6450 2450
+Wire Wire Line
+	7900 4700 7900 4750
+Wire Wire Line
+	7150 4800 7150 4750
 $EndSCHEMATC
