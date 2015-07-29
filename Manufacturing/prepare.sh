@@ -19,5 +19,4 @@ drl=${drl/.drl/}
 
 cp $drl.drl drl.TXT
 
-
 zip -m dirtypcb.zip *.GB? *.GT? *.TXT
