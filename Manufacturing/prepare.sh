@@ -17,6 +17,6 @@ done
 drl=$(echo *.drl)
 drl=${drl/.drl/}
 
-cp $drl.drl drl.TXT
+cp $drl.drl $drl.TXT
 
 zip -m dirtypcb.zip *.GB? *.GT? *.TXT
