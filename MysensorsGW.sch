@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:MysensorsGW-rescue
 LIBS:mysensors_sensors
 LIBS:power
 LIBS:device
@@ -12,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -1465,7 +1463,7 @@ F1 54 95 14 9F EF 69 AF 2F E5 68 0C 80 4D C9 83 B8 C7 32 D7 FA 45 6F 95 BF E8 F3
 88 3B 00 28 44 DC 01 40 21 E2 0E 00 0A 11 77 00 50 88 B8 03 80 42 C4 1D 00 14 22 EE 00 A0 10 71 
 07 00 85 88 3B 00 28 44 DC 01 40 21 E2 0E 00 0A 11 77 00 50 88 B8 03 80 42 C4 1D 00 14 22 EE 00 
 A0 10 71 07 00 85 88 3B 00 28 F4 2F 6E 0E 73 66 69 F5 31 42 00 00 00 00 49 45 4E 44 AE 42 60 82 
-80 
+B8 
 EndData
 $EndBitmap
 Text Label 10550 3300 0    60   ~ 0
@@ -1628,9 +1626,9 @@ Text Label 3400 3800 0    60   ~ 0
 CS_RFM
 Text Label 3400 3500 0    60   ~ 0
 CS_NRF
-Text Label 3400 3400 0    60   ~ 0
-D1_DFM
 Text Label 3400 3600 0    60   ~ 0
+D1_DFM
+Text Label 3400 3400 0    60   ~ 0
 D2_DTM
 Text Label 3400 3700 0    60   ~ 0
 SECURITY
