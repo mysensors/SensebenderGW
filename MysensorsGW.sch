@@ -2596,9 +2596,9 @@ Wire Wire Line
 Wire Wire Line
 	2950 6550 2600 6550
 Wire Wire Line
-	3050 6650 2600 6650
+	2600 6650 3200 6650
 Wire Wire Line
-	2800 6950 2600 6950
+	2600 6950 3200 6950
 Wire Wire Line
 	2800 6100 2800 6950
 Wire Wire Line
@@ -2786,4 +2786,86 @@ Text Label 1250 2700 0    60   ~ 0
 INCL_SW
 Wire Wire Line
 	5550 1250 5550 1300
+$Comp
+L TEST_1P W1
+U 1 1 56D2B149
+P 3200 6350
+F 0 "W1" H 3258 6470 50  0000 L CNN
+F 1 "TEST_1P" H 3258 6378 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3400 6350 50  0001 C CNN
+F 3 "" H 3400 6350 50  0000 C CNN
+	1    3200 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W2
+U 1 1 56D2B207
+P 3200 6650
+F 0 "W2" H 3258 6770 50  0000 L CNN
+F 1 "TEST_1P" H 3258 6678 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3400 6650 50  0001 C CNN
+F 3 "" H 3400 6650 50  0000 C CNN
+	1    3200 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W3
+U 1 1 56D2B2A1
+P 3200 6950
+F 0 "W3" H 3258 7070 50  0000 L CNN
+F 1 "TEST_1P" H 3258 6978 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3400 6950 50  0001 C CNN
+F 3 "" H 3400 6950 50  0000 C CNN
+	1    3200 6950
+	1    0    0    -1  
+$EndComp
+Connection ~ 2800 6950
+Connection ~ 3050 6650
+Wire Wire Line
+	3200 6350 2950 6350
+Connection ~ 2950 6350
+$Comp
+L TEST_1P W5
+U 1 1 56D2BC10
+P 3200 7300
+F 0 "W5" H 3258 7420 50  0000 L CNN
+F 1 "TEST_1P" H 3258 7328 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3400 7300 50  0001 C CNN
+F 3 "" H 3400 7300 50  0000 C CNN
+	1    3200 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W4
+U 1 1 56D2BCF6
+P 2800 7300
+F 0 "W4" H 2858 7420 50  0000 L CNN
+F 1 "TEST_1P" H 2858 7328 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3000 7300 50  0001 C CNN
+F 3 "" H 3000 7300 50  0000 C CNN
+	1    2800 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR058
+U 1 1 56D2BDB6
+P 2800 7300
+F 0 "#PWR058" H 2800 7050 50  0001 C CNN
+F 1 "GND" H 2808 7126 50  0000 C CNN
+F 2 "" H 2800 7300 50  0000 C CNN
+F 3 "" H 2800 7300 50  0000 C CNN
+	1    2800 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3VP #PWR059
+U 1 1 56D2BE4C
+P 3200 7300
+F 0 "#PWR059" H 3350 7250 50  0001 C CNN
+F 1 "+3.3VP" H 3223 7444 50  0000 C CNN
+F 2 "" H 3200 7300 50  0000 C CNN
+F 3 "" H 3200 7300 50  0000 C CNN
+	1    3200 7300
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
