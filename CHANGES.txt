@@ -1,0 +1,458 @@
+commit 13fe58e70f104130bcf78dbefecaec269aae0b13
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Mon Mar 14 20:29:02 2016 +0100
+
+    Added license files
+
+commit 97613641fad29317ee4003960c5999194cabc4cf
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Fri Mar 11 21:08:48 2016 +0100
+
+    Smal adjustments to layout
+
+commit 968e2258f7451177f4f2449388c9d0bdbcc02ddd
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Mon Feb 29 20:34:23 2016 +0100
+
+    Minor touchup of pcb
+
+commit fb289652fcfc21df8da5dfc4841998821170661a
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sun Feb 28 09:31:03 2016 +0100
+
+    Added testpads for programming pins
+
+commit ab542fbc0d7d3c58ac3a206d41b53e6e0f1def92
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sat Feb 27 22:45:57 2016 +0100
+
+    Updated schematics pdf
+
+commit 57bcb6aa018d5dd6140ea8b006933274ce9064c5
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sat Feb 27 22:43:33 2016 +0100
+
+    Changed reset button to model recomended by itead studio
+
+commit cfc156b23774988dad16e8e3cbb4a815b72587b9
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sat Feb 27 17:50:18 2016 +0100
+
+    Added pinheader for battery backup
+
+commit a65f46c09be890d2215a8f9b2d93c1452ec05af6
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Mon Feb 15 18:34:16 2016 +0100
+
+    Small cleanups to layout, generated new jpg and pdf files for the board
+
+commit 48a2fcf45a6df66a9d167195df0e89bd4a36533b
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sun Jan 31 00:47:36 2016 +0100
+
+    Added pinheader for an inclusion button
+
+commit f4f5f61497b108fe85e6101e55c943372f7168bf
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sat Jan 30 15:10:39 2016 +0100
+
+    Added extra LED, cleaned up PCB DRC warnings
+
+commit 242c74520f8ba6f1a8f35402fc79cb5d47f39096
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sat Jan 30 13:17:52 2016 +0100
+
+    Added battery, cleaned up schematics
+
+commit cbb19ff491c065d9c42fc4db7da99912889ae095
+Merge: e1dfb4c 954bc16
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Thu Jan 28 21:20:55 2016 +0100
+
+    Merge branch 'master' of github.com:tbowmo/MySensorGW
+
+commit e1dfb4cf721144dc5d36d9b93ca5400abed05089
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Thu Jan 28 21:20:17 2016 +0100
+
+    Added SDCARD reader, removed ESP8266 socket, seperated supply to mcu with bat54
+
+commit 954bc16b627ecba4b4cfe9a9d49f3227650dc2e4
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Mon Jan 18 10:53:24 2016 +0100
+
+    Updated readme file
+
+commit 72abb8b00f04e44195d4fb83b7c0c3a502bd3309
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sun Jan 10 00:17:28 2016 +0100
+
+    KiCAD generated 3d image
+
+commit 4d87a1a3fac8d57a0a68725ac8574fedf1a1651e
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sat Dec 12 21:17:28 2015 +0100
+
+    fixes #5 and #6
+
+commit b67b9767cc6aa753e957e9b750801be6416e35c8
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Fri Sep 4 20:51:09 2015 +0200
+
+    Bumped rev. 0.7, as new gerbers have been sent to dirtypcbs, and silkscreen has been updated slightly
+
+commit 0eac1350285af1469bbb8945079eb526b7c21624
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Tue Sep 1 15:02:42 2015 +0200
+
+    Corrected bug in layout files, discovered after upload to dirtypcbs
+
+commit 34c67eb0c208f7604997f55e1ed3fdd0061c7ed3
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Tue Sep 1 14:50:53 2015 +0200
+
+    Corrected UART connections to MYSX connector
+
+commit 69b99d72747c1a7b4b1b70ca877a58707ab97e3f
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Mon Aug 31 21:00:01 2015 +0200
+
+    Added BOM file
+
+commit e83118522deb8f0a0ae33e468b47c7c54dba03e1
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Mon Aug 31 20:53:40 2015 +0200
+
+    Adjusted mounting hole positions
+
+commit 50cb8235f939a8f9eee96084dc341a99edb71f15
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Mon Aug 31 20:28:50 2015 +0200
+
+    Cleanup of the PCB, moved component refs, and texts a bit around
+
+commit acffd3442a1ddb8ed5fc557147aa46dd32777da2
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sun Aug 30 21:05:56 2015 +0200
+
+    Swapped MISO/MOSI signals on esp8266 (doubles as RX/TX signals when SERCOM unit is acting as UART)
+
+commit 1b86ede7c93bc914278f19d6c914ec3015bbd754
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sun Aug 30 10:53:47 2015 +0200
+
+    Swapped pins around on the SPI signals.
+    Added a couple of extra jumpers / testpoints to the backside, can be used to select special SW modes.
+    fixes #2
+
+commit f7c89d598107c975c706b5fe92fc1355efb5f4c9
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Fri Aug 28 17:29:00 2015 +0200
+
+    Swapped GND/VCC on jtagice3 connector
+    Fixes #1
+
+commit 065877af77d0a2f5abaf39fa80d6c7d4ab7e9dc2
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Wed Jul 29 23:44:27 2015 +0200
+
+    Added OSHW logo to silkscreen, order send
+
+commit 3fa506e6357b2172271a0d20e940358da9d905f7
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Wed Jul 29 23:27:06 2015 +0200
+
+    Final touch up before ordering
+
+commit 68983417c55b108f4aad45e951d551794b570e0a
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Wed Jul 29 23:12:38 2015 +0200
+
+    Cleaned up the last couple of DRC on pcb, that can be fixed (the rest is known, and intentional)
+
+commit 3ab5f4ddeeeba741cf7bd6068b9b1cd05f8a78b0
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Tue Jul 28 23:46:44 2015 +0200
+
+    Added preparation script to git
+
+commit ae2b210a92b676b9c93cc19667a90957495d0ee0
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Tue Jul 28 23:43:18 2015 +0200
+
+    small adjustments to pcb, removed unnescesarry files from manufacturing dir, drill files merged to one prepared manufacturing output script for creating dirtypcb gerbers
+
+commit 949d448f218d21a8e8e57fb4ea8513fb95e42e59
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Mon Jul 27 13:04:52 2015 +0200
+
+    small updates in layout around NRF module header
+
+commit 12936694c13635a582b59ffd2bb3fd05c253f7cf
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sun Jul 26 17:29:29 2015 +0200
+
+    Updated various components with more correct 3d shapes. Updated footprints for reset switch, and crystal, to match the chosen components from mouser
+
+commit 73dfd2189e60ad25aa569bdf0234901cc96dd7c2
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sun Jul 26 01:15:42 2015 +0200
+
+    Moved component designators around on the silkscreen layers, + Added descriptive texts here and there on the silk screen
+
+commit d5927f76daf140f06a6ff93ccce1caaa5ad43473
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sat Jul 25 16:35:10 2015 +0200
+
+    Calculated values for xtal load caps, and found mouser partnumbers
+
+commit efda4e5aa1b35d68c71de6a503ae66df21ce6d55
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sat Jul 25 13:51:10 2015 +0200
+
+    Added jtagice3 compatible cortex M debug port to bottom layer
+
+commit 3ab5af5bbb1bbb2e96b54b7d1b94a0a992c83077
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Fri Jul 24 17:00:56 2015 +0200
+
+    Cleaned up schematic, DRC is now without errors
+
+commit 04c57f2ee27cbbf012fba464c98a886d8a83f662
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Fri Jul 24 09:32:56 2015 +0200
+
+    Updated IO connector symbol in schematic to use MYSX1.5 connector, instead of generic
+
+commit 5dfcc70e3e9f54789ec11889c0885d5e63b83cba
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Fri Jul 24 08:54:39 2015 +0200
+
+    Updated USB connector to use right symbol in the schematics, Also added EMI filter from shield of USB cable to GND
+
+commit 16c1e9a595d8548dcca738b297926b1ff4ccbe76
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Fri Jul 24 08:37:04 2015 +0200
+
+    Added extra i2c eeprom, U3, as the ATSAMD21 doesn't have an internal eeprom.
+
+commit 1b60cf3f7b62cd974f682e23c1d1e4b4c2d89768
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Tue Jul 21 20:21:46 2015 +0200
+
+    Added extra status LED (LED4)
+
+commit 92c50be4f5a4c4d84e79d2fc2d3f60603e619938
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Tue Jul 21 13:34:10 2015 +0200
+
+    Updated with module corrections on RFM69HW, from @fallberg
+
+commit dbf0aeaf10ba13131c34d350e8fed43f1aeb4007
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Tue Jul 21 13:29:58 2015 +0200
+
+    Removed FETs on outputs for LED, as it should be enough with 5mA for the LED.. (and max current is 7mA per IO pin)
+
+commit 5a33bfe700e267ca4d070c3033bae8b7578cb262
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sun Jul 19 09:16:48 2015 +0200
+
+    Added connection from GPIO2 on ESP module to port on ATSAM, added bottom layer solder mask
+
+commit 30bc11e3768be832d4b846d761ffa25f56552e28
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sat Jul 18 17:25:02 2015 +0200
+
+    Added connection for ESP8266 GPIO0 (so we can put it into FW download mode
+
+commit 786b311452c6139a71055716e821655a23544c74
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sat Jul 18 17:13:53 2015 +0200
+
+    Removed ws2812b library reference from the schematics
+
+commit 408188e0fe9a8c6ba2b23a32b869f74c28ebe3b2
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sat Jul 18 11:03:16 2015 +0200
+
+    Added gerber files
+
+commit 9f61b69459f0705daab06f1eef98c5e22d263cc7
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sat Jul 18 09:39:05 2015 +0200
+
+    Added pullup on I2C bus
+
+commit 426090d5ede14767ac4d94cc27f8c51a0e0f95e2
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Fri Jul 17 23:46:33 2015 +0200
+
+    Finished most of the routing on the board
+
+commit 290f17c1d93e8471225c091d54de9552d7a66e59
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Tue Jul 14 00:09:30 2015 +0200
+
+    Updated components with mouser order no. and prepared "core functionality" on a D21E variant of the atsam MCU
+
+commit 0c256db1072c69c77922accdee49601e4fcaaaa9
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Mon Jul 13 12:49:47 2015 +0200
+
+    Changed MCU to ATSAMD21 instead of atmega1284.
+    
+    Removed level converters and FTDI chip, as it's not needed (builtin USB in the D21)
+
+commit 9b9c558f030514fa41ec447d39779c7328c52bb2
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Fri Jul 10 17:27:46 2015 +0200
+
+    Rearrangement of MYSX connector in progress
+
+commit 452d3e7b2a7199cf27750dbba75ba54b61c7e540
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Wed Jul 8 21:58:06 2015 +0200
+
+    updating board connector, and moving pins around for the level shifters
+
+commit 6eece0828dbb10a453d80c8c99da9d5b3e702600
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Tue Jul 7 20:03:06 2015 +0200
+
+    Updated schematic, swapped A2 and A3
+
+commit 0edbd6e0080e6082112b442546d37ff325403f2a
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Thu Jun 25 23:26:57 2015 +0200
+
+    updated schematics a bit, updated PCB with 3dmockups. Added OSHW logo to schematics
+
+commit 24a78e81e07e9c53edf1654e2a556c4291a71f16
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Tue Jun 23 20:28:27 2015 +0200
+
+    Updated project to mysensors_kicad standard.
+    (see https://github.com/mysensors-kicad/part_management for more information)
+
+commit 79c5f50a9182ded7b1fff3a7382e946f7d46b146
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Mon Jun 22 21:14:25 2015 +0200
+
+    Updated project files, to follow mysensors kicad library standard
+
+commit 9f6067fb4fa8be0b8809e8fdc486f9256c6349be
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Mon Jun 22 20:59:49 2015 +0200
+
+    Updated schematics, corrected errors / warnings in ERC
+
+commit bd3af526458e2326238594263e544e48e6cde734
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sun Jun 21 15:11:35 2015 +0200
+
+    Changed LED's to two standard led's instead of RGB (too much trouble in correct timing on the 1 wire control bus)
+    
+    Changed IO connector to a 2x11, instead of 2x14, and removed a couple of signals (there simply isn't that much space for the larger IO connector)
+
+commit 9f860b817cadb9a271e2a23901c82cd17d25ecdc
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sat Jun 20 11:11:13 2015 +0200
+
+    Added 2 WS2812B rgb leds for status indicators, and filtering components on USB connector
+
+commit 2cc67aed7d41de145998ef4bc69fc8073dd18315
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Wed Jun 10 23:26:49 2015 +0200
+
+    Updated mouser references on components
+
+commit 662c1dc1567957e4802a555ff80fdc1021392d97
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Mon Jun 8 20:48:42 2015 +0200
+
+    Updated schematics, exchanged one MAX3002 to a MAX3378, which is better suited for I2C bus
+
+commit 3a2b59247998c8405fff1f645eb495b19e446bb6
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sat Jun 6 22:32:34 2015 +0200
+
+    Added MAX3002E to do level conversion between 5V and 3v3 domains
+
+commit 4680ef4356b73f15eee5424cf5a55d04ff125cc6
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Mon Jun 1 20:59:59 2015 +0200
+
+    Moving things around
+
+commit e00b2473eb320a5c2fe9ff206cf1678ff822dfbb
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Wed May 27 21:14:44 2015 +0200
+
+    Added BOM (csv file)
+
+commit 83e3aa0386f206505d20944452f5d9e29a3ee9f9
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Wed May 27 20:39:56 2015 +0200
+
+    Updated readme file, and legends on schematics
+
+commit 05490aa583cde24ae50926ffcc639b2b87a70491
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Wed May 27 20:03:08 2015 +0200
+
+    Shematics cleanup
+
+commit c8c56671c9586a3a4ea91806439318b11a7a17f6
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Mon May 25 12:40:28 2015 +0200
+
+    Cleaned up schematics, all components on one sheet of paper now
+
+commit 0b8fa2ba661d59fde4502c7e079d58985c31d4b3
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sat May 23 11:32:58 2015 +0200
+
+    Added connectors for GPIO's, and other things..
+
+commit 98cb7fb0f3115efca47be3cc96a7befc783f1ca0
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Mon May 11 21:46:51 2015 +0200
+
+    Updated schematics, including w5100
+
+commit d806254a824fe63aa25ba74d26a32898fdaf9725
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sun May 10 10:58:21 2015 +0200
+
+    Updated schematics
+
+commit 07bf946d956ba7ee8fe8c98285561b1aee2a77e5
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Sat Apr 25 21:03:49 2015 +0200
+
+    Updated schematics
+
+commit 1770e505100fc22756ea86191f576f27eddc6c5a
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Wed Apr 22 21:41:08 2015 +0200
+
+    Added pdf schemaatic
+
+commit c92704ad14a83c38f17a99fc0bf492bbf83abeb3
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Wed Apr 22 21:39:16 2015 +0200
+
+    Beautified schematic a little
+
+commit c837df8c4ec82e6f1823520e147ecf9dbb52d3a0
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Wed Apr 22 20:43:25 2015 +0200
+
+    Updated library paths
+
+commit 310c67751a01195687ed74aeb687d370e5490839
+Author: Thomas Mørch <thomas@bowmo.dk>
+Date:   Wed Apr 22 20:30:54 2015 +0200
+
+    First commit
