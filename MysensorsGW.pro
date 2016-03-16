@@ -1,4 +1,4 @@
-update=søn 31 jan 2016 00:46:13 CET
+update=ons 16 mar 2016 16:14:57 CET
 version=1
 last_client=kicad
 [cvpcb]
@@ -80,3 +80,4 @@ NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+ERC_TestSimilarLabels=1
