@@ -1,9 +1,11 @@
-#!/bin/sh
+#!/bin/bash
 
-rm dirtypcb.zip
+projdir="$(basename $(dirname `pwd`))"
+echo $projdir
+rm $projdir.zip
 
-orgname=(B_Cu B_Mask B_SilkS F_Cu F_Mask F_SilkS Edge_Cuts)
-newname=(GBL GBS GBO GTL GTS GTO GBR)
+orgname=(B.Cu B.Mask B.SilkS F.Cu F.Mask F.SilkS Edge.Cuts)
+newname=(GBL GBS GBO GTL GTS GTO GML)
 
 for item in ${!orgname[*]}
 do 
@@ -19,4 +21,9 @@ drl=${drl/.drl/}
 
 cp $drl.drl $drl.TXT
 
-zip -m dirtypcb.zip *.GB? *.GT? *.TXT
+zip -m $projdir.zip *.GB? *.GT? *.GM? *.TXT
+
+rm -rf dirtypcb
+mkdir dirtypcb
+cd dirtypcb
+unzip ../$projdir.zip
