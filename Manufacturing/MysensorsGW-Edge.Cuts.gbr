@@ -1,8 +1,9 @@
 G04 #@! TF.FileFunction,Profile,NP*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 0.201603171416+6624~43~ubuntu15.10.1-product) date man 21 mar 2016 21:16:12 CET*
+G04 Created by KiCad (PCBNEW 4.1.0-alpha+201605180746+6813~44~ubuntu16.04.1-product) date Thu May 19 20:41:09 2016*
 %MOMM*%
+%LPD*%
 G01*
 G04 APERTURE LIST*
 %ADD10C,0.100000*%

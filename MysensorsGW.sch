@@ -62,7 +62,8 @@ F 0 "U11" H 5500 4750 50  0000 C CNN
 F 1 "MICRO-B_USB" H 5500 5450 50  0000 C CNN
 F 2 "mysensors_connectors:Micro_USB" H 5500 5100 60  0001 C CNN
 F 3 "" H 5500 5100 60  0000 C CNN
-F 4 "Mouser" H 5500 5100 60  0001 C CNN "Supplier1"
+F 4 "Shenzhen Guanduan Electonics Technology co ltd." H 5500 5100 60  0001 C CNN "Vendor"
+F 5 "MICRO USB SP/F B" H 5500 5100 60  0001 C CNN "Vendor part"
 	1    5500 5100
 	1    0    0    -1  
 $EndComp
@@ -288,6 +289,8 @@ F 2 "SMD_Packages:SOT-223" H 10150 4750 60  0001 C CNN
 F 3 "" H 10150 4750 60  0000 C CNN
 F 4 "mouser" H 2650 3700 60  0001 C CNN "Supplier1"
 F 5 "522-ZLDO1117G33TA" H 10250 4700 60  0001 C CNN "Supplier1 part"
+F 6 "ZLDO1117G33TA" H 10250 4700 60  0001 C CNN "Vendor part"
+F 7 "Diodes incorporated" H 10250 4700 60  0001 C CNN "Vendor"
 	1    10250 4700
 	1    0    0    -1  
 $EndComp
@@ -436,6 +439,7 @@ F 3 "" H 1350 1150 60  0000 C CNN
 F 4 "mouser" H 2550 3950 60  0001 C CNN "Supplier1"
 F 5 "566-ATSHA204ASTUCZ-T" H 1350 1150 60  0001 C CNN "Supplier1 part"
 F 6 "Atmel" H 1350 1150 60  0001 C CNN "Vendor"
+F 7 "ATSHA204A-STUCZ-T" H 1350 1150 60  0001 C CNN "Vendor part"
 	1    1350 1150
 	1    0    0    -1  
 $EndComp
@@ -605,6 +609,8 @@ F 2 "Resistors_SMD:R_0603_HandSoldering" H 5000 4500 60  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/CatalogAction.do?sHinnm=?&nbsp&sNHinnm=BLM18PG471SN1D&sNhin_key=BLM18PG471SN1D&sLang=en" H 5000 4500 60  0001 C CNN
 F 4 "mouser" H 2150 3950 60  0001 C CNN "Supplier1"
 F 5 "81-BLM18PG471SN1D" H 5000 4500 60  0001 C CNN "Supplier1 part"
+F 6 "BLM18PG471SN1D" H 5000 4500 60  0001 C CNN "Vendor part"
+F 7 "Murata" H 5000 4500 60  0001 C CNN "Vendor"
 	1    5000 4500
 	0    1    1    0   
 $EndComp
@@ -1541,6 +1547,7 @@ F 3 "http://www.mouser.com/ds/2/181/M50-360-350131.pdf" H 2350 5550 60  0001 C C
 F 4 "mouser" H 1750 4300 60  0001 C CNN "Supplier1"
 F 5 "855-M50-3600542" H 2350 6750 60  0001 C CNN "Supplier1 part"
 F 6 "Harwin" H 2350 6750 60  0001 C CNN "Vendor"
+F 7 "M50-3600542" H 2350 6750 60  0001 C CNN "Vendor part"
 	1    2350 6750
 	1    0    0    -1  
 $EndComp
@@ -1675,6 +1682,8 @@ F 2 "Resistors_SMD:R_0603_HandSoldering" H 1000 2100 60  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/CatalogAction.do?sHinnm=?&nbsp&sNHinnm=BLM18PG471SN1D&sNhin_key=BLM18PG471SN1D&sLang=en" H 1000 2100 60  0001 C CNN
 F 4 "mouser" H 2550 3950 60  0001 C CNN "Supplier1"
 F 5 "81-BLM18PG471SN1D" H 1000 2100 60  0001 C CNN "Supplier1 part"
+F 6 "BLM18PG471SN1D" H 1000 2100 60  0001 C CNN "Vendor part"
+F 7 "Murata" H 1000 2100 60  0001 C CNN "Vendor"
 	1    1000 2100
 	-1   0    0    1   
 $EndComp
@@ -1709,11 +1718,9 @@ P 1250 7100
 F 0 "SW1" H 1400 7210 50  0000 C CNN
 F 1 "Reset" H 1250 7020 50  0000 C CNN
 F 2 "mysensors_buttons:SW_SPST_SMD_J-LEAD_4.3MM" H 1250 7100 60  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/418/NG_CD_147873_K3-656557.pdf" H 1250 7100 60  0001 C CNN
-F 4 "TE Connectivity" H 1250 7100 60  0001 C CNN "Vendor"
-F 5 "Mouser" H 1250 7100 60  0001 C CNN "Supplier1"
-F 6 "506-147873-2" H 1250 7100 60  0001 C CNN "Supplier1 part"
-F 7 "147873-2" H 1250 7100 60  0001 C CNN "Vendor part"
+F 3 "http://www.xingda0577.com/ProductShow.asp?ArticleID=40" H 1250 7100 60  0001 C CNN
+F 4 "xingda0577" H 1250 7100 60  0001 C CNN "Vendor"
+F 5 "TS-021" H 1250 7100 60  0001 C CNN "Vendor part"
 	1    1250 7100
 	0    -1   -1   0   
 $EndComp
@@ -1834,6 +1841,7 @@ F 3 "http://www.atmel.com/images/atmel-42181-sam-d21_datasheet.pdf" H 1750 3650 
 F 4 "mouser" H 2550 3950 60  0001 C CNN "Supplier1"
 F 5 "556-ATSAMD21J18A-AU" H 2550 3950 60  0001 C CNN "Supplier1 part"
 F 6 "Atmel" H 2550 3950 60  0001 C CNN "Vendor"
+F 7 "ATSAMD21J18A-AU" H 2550 3950 60  0001 C CNN "Vendor part"
 	1    2550 3950
 	1    0    0    -1  
 $EndComp
@@ -1918,6 +1926,9 @@ F 1 "AT24CS32-STUM" H 6300 2450 40  0000 C CNN
 F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5" H 6000 2750 35  0001 C CIN
 F 3 "http://www.mouser.com/ds/2/36/Atmel-8869-SEEPROM-AT24CS32-Datasheet-469859.pdf" H 6000 2750 60  0001 C CNN
 F 4 "Mouser" H 6000 2750 60  0001 C CNN "Supplier1"
+F 5 "Atmel" H 6000 2750 60  0001 C CNN "Vendor"
+F 6 "AT24CS32-STUM-T" H 6000 2750 60  0001 C CNN "Vendor part"
+F 7 "556-AT24CS32-STUM-T" H 6000 2750 60  0001 C CNN "Supplier1 part"
 	1    6000 2750
 	1    0    0    -1  
 $EndComp
@@ -2010,6 +2021,8 @@ F 2 "Resistors_SMD:R_0603_HandSoldering" H 6300 5250 60  0001 C CNN
 F 3 "http://search.murata.co.jp/Ceramy/CatalogAction.do?sHinnm=?&nbsp&sNHinnm=BLM18PG471SN1D&sNhin_key=BLM18PG471SN1D&sLang=en" H 6300 5250 60  0001 C CNN
 F 4 "mouser" H 3450 4700 60  0001 C CNN "Supplier1"
 F 5 "81-BLM18PG471SN1D" H 6300 5250 60  0001 C CNN "Supplier1 part"
+F 6 "BLM18PG471SN1D" H 6300 5250 60  0001 C CNN "Vendor part"
+F 7 "Murata" H 6300 5250 60  0001 C CNN "Vendor"
 	1    6300 5250
 	0    -1   -1   0   
 $EndComp
@@ -2146,6 +2159,8 @@ F 0 "CON1" H 7100 1900 50  0000 C CNN
 F 1 "micro_SD_Card_SPI" H 8350 800 50  0000 C CNN
 F 2 "mysensors_connectors:MM027S020R" H 7950 1700 50  0000 C CNN
 F 3 "" H 7750 1350 50  0000 C CNN
+F 4 "MM027S020R" H 7750 1350 60  0001 C CNN "Vendor part"
+F 5 "Litkconn Technology Co. LTD" H 7750 1350 60  0001 C CNN "Vendor"
 	1    7750 1350
 	1    0    0    -1  
 $EndComp
@@ -2205,6 +2220,10 @@ F 0 "D6" H 5250 1350 50  0000 C CNN
 F 1 "BAT54" H 5200 1550 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 5200 1450 50  0001 C CNN
 F 3 "" H 5200 1450 50  0000 C CNN
+F 4 "ST Micro" H 5200 1450 60  0001 C CNN "Vendor"
+F 5 "BAT54CWFILMY" H 5200 1450 60  0001 C CNN "Vendor part"
+F 6 "Mouser" H 5200 1450 60  0001 C CNN "Supplier1"
+F 7 "511-BAT54CWFILMY" H 5200 1450 60  0001 C CNN "Supplier1 part"
 	1    5200 1450
 	-1   0    0    1   
 $EndComp
