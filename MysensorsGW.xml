@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/thomas/Projects/kicad/MysensorsGW/MysensorsGW.sch</source>
-    <date>tir 31 maj 2016 07:59:46 CEST</date>
-    <tool>Eeschema 4.1.0-alpha+201605272346+6836~44~ubuntu16.04.1-product</tool>
+    <date>tir 07 jun 2016 19:16:10 CEST</date>
+    <tool>Eeschema 4.1.0-alpha+201606061201+6885~45~ubuntu16.04.1-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>MySensors Gateway</title>
@@ -1184,23 +1184,23 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="mysensors_security">
-      <uri>/home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_security.lib</uri>
-    </library>
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
     <library logical="memory">
       <uri>/usr/share/kicad/library/memory.lib</uri>
     </library>
-    <library logical="mysensors_radios">
-      <uri>/home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_radios.lib</uri>
-    </library>
     <library logical="mysensors_regulators">
       <uri>/home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_regulators.lib</uri>
+    </library>
+    <library logical="mysensors_security">
+      <uri>/home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_security.lib</uri>
+    </library>
+    <library logical="mysensors_radios">
+      <uri>/home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_radios.lib</uri>
     </library>
     <library logical="mysensors_network">
       <uri>/home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_network.lib</uri>
@@ -1208,11 +1208,11 @@
     <library logical="mysensors_mcu">
       <uri>/home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_mcu.lib</uri>
     </library>
-    <library logical="mysensors_connectors">
-      <uri>/home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_connectors.lib</uri>
-    </library>
     <library logical="MysensorsGW-cache">
       <uri>/home/thomas/Projects/kicad/MysensorsGW/MysensorsGW-cache.lib</uri>
+    </library>
+    <library logical="mysensors_connectors">
+      <uri>/home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_connectors.lib</uri>
     </library>
   </libraries>
   <nets>
