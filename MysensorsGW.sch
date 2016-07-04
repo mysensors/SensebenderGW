@@ -567,7 +567,7 @@ U 1 1 556277CD
 P 8000 3100
 F 0 "U7" H 7650 3350 40  0000 C CNN
 F 1 "RFM69HW" H 8250 2350 40  0000 C CNN
-F 2 "mysensors_radios:RFM69HW_SMD" H 8000 3100 30  0001 C CIN
+F 2 "mysensors_radios:RFM95HW_SMD" H 8000 3100 30  0001 C CIN
 F 3 "" H 8000 3100 60  0000 C CNN
 	1    8000 3100
 	1    0    0    -1  
@@ -691,9 +691,6 @@ NoConn ~ 8550 3200
 NoConn ~ 8550 3300
 NoConn ~ 8550 3400
 NoConn ~ 8550 3500
-NoConn ~ 8550 3600
-NoConn ~ 7450 3750
-NoConn ~ 7450 3650
 NoConn ~ 5000 5200
 $Bitmap
 Pos 10350 6850
@@ -1643,7 +1640,6 @@ F 5 "81-GRM39X104K16J" H 2550 1000 60  0001 C CNN "Supplier1 part"
 $EndComp
 Text Label 1850 3700 2    60   ~ 0
 NET_RST
-NoConn ~ 1850 3600
 NoConn ~ 2600 6850
 NoConn ~ 2600 6750
 $Comp
@@ -2043,10 +2039,8 @@ F 7 "VJ0603Y102JXJPW1BCccccc½" H 4700 4500 60  0001 C CNN "Vendor part"
 $EndComp
 Text Label 1850 3000 2    60   ~ 0
 TESTMODE
-Text Label 1850 3100 2    60   ~ 0
-SWC1
 Text Label 1850 3200 2    60   ~ 0
-SWC2
+SWC1
 $Comp
 L TEST P6
 U 1 1 55E2659E
@@ -2058,7 +2052,7 @@ F 3 "" H 3550 1250 60  0000 C CNN
 F 4 "Mouser" H 3550 1250 60  0001 C CNN "Supplier1"
 F 5 "Digikey" H 3550 1250 60  0001 C CNN "Supplier2"
 	1    3550 1250
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 Text Label 3800 950  2    60   ~ 0
 BOOTMODE
@@ -2077,23 +2071,8 @@ F 5 "Digikey" H 4050 1250 60  0001 C CNN "Supplier2"
 	1    4050 1250
 	0    -1   -1   0   
 $EndComp
-$Comp
-L TEST P8
-U 1 1 55E2A2C8
-P 4300 1250
-F 0 "P8" H 4400 1300 50  0000 C CNN
-F 1 "SWC2" H 4300 1150 50  0000 C CNN
-F 2 "mysensors_obscurities:2_pin_solder_jumper_smd" H 4300 1250 60  0001 C CNN
-F 3 "" H 4300 1250 60  0000 C CNN
-F 4 "Mouser" H 4300 1250 60  0001 C CNN "Supplier1"
-F 5 "Digikey" H 4300 1250 60  0001 C CNN "Supplier2"
-	1    4300 1250
-	0    -1   -1   0   
-$EndComp
 Text Label 4050 1050 1    60   ~ 0
 SWC1
-Text Label 4300 1050 1    60   ~ 0
-SWC2
 $Comp
 L GND #PWR044
 U 1 1 55E2A679
@@ -2603,8 +2582,6 @@ Wire Wire Line
 	7250 4300 7250 4550
 Wire Wire Line
 	3800 950  3800 1050
-Wire Wire Line
-	3550 1450 4300 1450
 Connection ~ 3800 1450
 Connection ~ 4050 1450
 Wire Wire Line
@@ -2953,4 +2930,15 @@ Wire Wire Line
 	8000 2500 8000 2750
 Wire Wire Line
 	8000 2500 8050 2500
+Text Label 7450 3650 2    60   ~ 0
+RESET_RFM
+Text Label 1850 3600 2    60   ~ 0
+RESET_RFM
+Text Label 8550 3600 0    60   ~ 0
+RFM_DIO5
+Text Label 1850 3100 2    60   ~ 0
+RFM_DIO5
+NoConn ~ 7450 3750
+Wire Wire Line
+	3550 1450 4050 1450
 $EndSCHEMATC
