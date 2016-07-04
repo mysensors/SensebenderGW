@@ -1421,13 +1421,13 @@ D13_SCK
 Text Label 1850 4900 2    60   ~ 0
 D14_CS
 Text Label 3400 4100 0    60   ~ 0
-BOOTMODE
+SWC3
 $Comp
 L TEST P3
 U 1 1 55A16DD0
 P 3800 1250
 F 0 "P3" H 3900 1300 50  0000 C CNN
-F 1 "FORCE_BOOTLOADER" H 3800 1150 50  0000 C CNN
+F 1 "SWC3" H 3800 1150 50  0000 C CNN
 F 2 "mysensors_obscurities:2_pin_solder_jumper_smd" H 3800 1250 60  0001 C CNN
 F 3 "" H 3800 1250 60  0000 C CNN
 F 4 "Mouser" H 3800 1250 60  0001 C CNN "Supplier1"
@@ -2038,7 +2038,7 @@ F 7 "VJ0603Y102JXJPW1BCccccc½" H 4700 4500 60  0001 C CNN "Vendor part"
 	1    0    0    -1  
 $EndComp
 Text Label 1850 3000 2    60   ~ 0
-TESTMODE
+SWC2
 Text Label 1850 3200 2    60   ~ 0
 SWC1
 $Comp
@@ -2046,7 +2046,7 @@ L TEST P6
 U 1 1 55E2659E
 P 3550 1250
 F 0 "P6" H 3650 1300 50  0000 C CNN
-F 1 "TESTMODE" H 3550 1150 50  0000 C CNN
+F 1 "SWC2" H 3550 1150 50  0000 C CNN
 F 2 "mysensors_obscurities:2_pin_solder_jumper_smd" H 3550 1250 60  0001 C CNN
 F 3 "" H 3550 1250 60  0000 C CNN
 F 4 "Mouser" H 3550 1250 60  0001 C CNN "Supplier1"
@@ -2055,9 +2055,9 @@ F 5 "Digikey" H 3550 1250 60  0001 C CNN "Supplier2"
 	0    -1   1    0   
 $EndComp
 Text Label 3800 950  2    60   ~ 0
-BOOTMODE
+SWC3
 Text Label 3550 1050 2    60   ~ 0
-TESTMODE
+SWC2
 $Comp
 L TEST P7
 U 1 1 55E2A22E
