@@ -12,7 +12,7 @@ Features :
 - socket for W5100 ethernet module
 - Native USB port
 - 4 LED's (Red, Green, Yellow and Blue)
-- MYSx 1.5 with
+- MYSx 2.6 with
   - Dedicated UART
   - Dedicated SPI
   - Dedicated Interrupts
