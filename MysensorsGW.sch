@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:MysensorsGW-rescue
 LIBS:mysensors_sensors
 LIBS:power
 LIBS:device
@@ -573,9 +574,9 @@ F 3 "" H 8000 3100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 10650 3450 0    60   ~ 0
-D10_A2
+D10_A4
 Text Label 9600 3450 2    60   ~ 0
-D9_A1
+D9_A3
 Text Label 10650 3350 0    60   ~ 0
 D8_SDA
 Text Label 9600 2950 2    60   ~ 0
@@ -1458,13 +1459,13 @@ F 5 "81-GRM39X104K16J" H 1750 2150 60  0001 C CNN "Supplier1 part"
 	1    0    0    -1  
 $EndComp
 Text Label 3400 2800 0    60   ~ 0
-A3
+A5
 Text Label 3400 2900 0    60   ~ 0
-A4
+A6
 Text Label 1850 2800 2    60   ~ 0
-D9_A1
+D9_A3
 Text Label 1850 2900 2    60   ~ 0
-D10_A2
+D10_A4
 $Comp
 L C C18
 U 1 1 55A1C3E3
@@ -2956,9 +2957,9 @@ Connection ~ 1600 2300
 Text Label 1850 2600 2    60   ~ 0
 LEGACY_ID
 Text Label 10650 3750 0    60   ~ 0
-A4
+A6
 Text Label 9600 3750 2    60   ~ 0
-A3
+A5
 Text Label 9600 3050 2    60   ~ 0
 RST
 $Comp
