@@ -2584,7 +2584,7 @@
     )
   )
 
-  (module mysensors_connectors:MYSX_2.6 (layer F.Cu) (tedit 57D1C20E) (tstamp 55A1B445)
+  (module mysensors_connectors:MYSX_2.6 (layer F.Cu) (tedit 57D532E6) (tstamp 55A1B445)
     (at 121.92 74.93)
     (descr "Through hole pin header")
     (tags "pin header MYSX 2.6")
@@ -2592,7 +2592,7 @@
     (fp_text reference P2 (at 0 -3.302) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "IO Connector" (at -1.9812 12.573 90) (layer F.SilkS)
+    (fp_text value "MYSX 2.6" (at -1.9812 12.573 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user 2.5 (at 2.54 -3.302) (layer Cmts.User)
