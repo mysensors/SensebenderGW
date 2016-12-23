@@ -1,7 +1,11 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-7406~56~ubuntu16.10.1*
+G04 #@! TF.CreationDate,2016-12-23T22:43:09+01:00*
+G04 #@! TF.ProjectId,MysensorsGW,4D7973656E736F727347572E6B696361,rev?*
 G04 #@! TF.FileFunction,Soldermask,Top*
+G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW no-vcs-found-undefined) date Tue Nov 29 21:04:31 2016*
+G04 Created by KiCad (PCBNEW no-vcs-found-7406~56~ubuntu16.10.1) date Fri Dec 23 22:43:09 2016*
 %MOMM*%
 %LPD*%
 G01*

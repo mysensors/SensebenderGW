@@ -41,7 +41,7 @@ LIBS:mysensors_network
 LIBS:mysensors_mcu
 LIBS:mysensors_connectors
 LIBS:MysensorsGW-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -627,7 +627,7 @@ F 3 "" H 4700 4250 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D1
+L LED-RESCUE-MysensorsGW D1
 U 1 1 5586911F
 P 4150 6600
 F 0 "D1" H 4150 6700 50  0000 C CNN
@@ -665,7 +665,7 @@ $EndComp
 Text Label 9600 3350 2    60   ~ 0
 D7_SCL
 $Comp
-L LED D2
+L LED-RESCUE-MysensorsGW D2
 U 1 1 5586D5FB
 P 4500 6600
 F 0 "D2" H 4500 6700 50  0000 C CNN
@@ -1596,7 +1596,7 @@ LED1
 Text Label 4500 7200 0    60   ~ 0
 LED2
 $Comp
-L LED D3
+L LED-RESCUE-MysensorsGW D3
 U 1 1 55A42A2E
 P 4850 6600
 F 0 "D3" H 4850 6700 50  0000 C CNN
@@ -1873,7 +1873,7 @@ F 3 "" H 4850 6350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D4
+L LED-RESCUE-MysensorsGW D4
 U 1 1 55AE86E7
 P 5200 6600
 F 0 "D4" H 5200 6700 50  0000 C CNN
@@ -2204,7 +2204,7 @@ F 7 "511-BAT54CWFILMY" H 5200 1450 60  0001 C CNN "Supplier1 part"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Battery BT1
+L Battery-RESCUE-MysensorsGW BT1
 U 1 1 56ABAD62
 P 5550 1650
 F 0 "BT1" H 5550 1800 50  0000 L CNN
@@ -2634,7 +2634,7 @@ BAT_DET
 Text Label 5550 1450 0    60   ~ 0
 BAT_DET
 $Comp
-L LED D5
+L LED-RESCUE-MysensorsGW D5
 U 1 1 56ACC815
 P 5500 6600
 F 0 "D5" H 5500 6700 50  0000 C CNN

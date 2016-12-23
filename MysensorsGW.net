@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/thomas/Projects/kicad/MysensorsGW/MysensorsGW.sch)
-    (date "tir 29 nov 2016 20:39:10 CET")
-    (tool "Eeschema no-vcs-found-undefined")
+    (date "fre 23 dec 2016 22:35:02 CET")
+    (tool "Eeschema no-vcs-found-7406~56~ubuntu16.10.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "MySensors Gateway")
@@ -34,7 +34,7 @@
         (field (name "Supplier1 part") 815-ABS0712032.768KT)
         (field (name "Supplier1 link") http://dk.mouser.com/Search/ProductDetail.aspx?R=ABS07-120-32.768kHz-Tvirtualkey52750000virtualkey815-ABS0712032.768KT)
         (field (name "Vendor part") ABS07-120-32.768kHz-T))
-      (libsource (lib MysensorsGW-rescue) (part CRYSTAL-RESCUE-MysensorsGW))
+      (libsource (lib MysensorsGW-cache) (part CRYSTAL-RESCUE-MysensorsGW))
       (sheetpath (names /) (tstamps /))
       (tstamp 552433C5))
     (comp (ref C11)
@@ -217,7 +217,7 @@
       (fields
         (field (name Supplier1) Mouser)
         (field (name Supplier2) Digikey))
-      (libsource (lib device) (part LED))
+      (libsource (lib MysensorsGW-rescue) (part LED-RESCUE-MysensorsGW))
       (sheetpath (names /) (tstamps /))
       (tstamp 5586911F))
     (comp (ref R4)
@@ -234,7 +234,7 @@
       (fields
         (field (name Supplier1) Mouser)
         (field (name Supplier2) Digikey))
-      (libsource (lib device) (part LED))
+      (libsource (lib MysensorsGW-rescue) (part LED-RESCUE-MysensorsGW))
       (sheetpath (names /) (tstamps /))
       (tstamp 5586D5FB))
     (comp (ref R5)
@@ -249,7 +249,7 @@
       (fields
         (field (name Supplier1) Mouser)
         (field (name Supplier2) Digikey))
-      (libsource (lib MysensorsGW-rescue) (part TEST-RESCUE-MysensorsGW))
+      (libsource (lib MysensorsGW-cache) (part TEST-RESCUE-MysensorsGW))
       (sheetpath (names /) (tstamps /))
       (tstamp 55A16DD0))
     (comp (ref C5)
@@ -301,7 +301,7 @@
       (fields
         (field (name Supplier1) Mouser)
         (field (name Supplier2) Digikey))
-      (libsource (lib device) (part LED))
+      (libsource (lib MysensorsGW-rescue) (part LED-RESCUE-MysensorsGW))
       (sheetpath (names /) (tstamps /))
       (tstamp 55A42A2E))
     (comp (ref R2)
@@ -359,7 +359,7 @@
       (fields
         (field (name Vendor) xingda0577)
         (field (name "Vendor part") TS-021))
-      (libsource (lib device) (part SW_PUSH))
+      (libsource (lib MysensorsGW-cache) (part SW_PUSH))
       (sheetpath (names /) (tstamps /))
       (tstamp 55A811E7))
     (comp (ref R3)
@@ -412,7 +412,7 @@
       (fields
         (field (name Supplier1) Mouser)
         (field (name Supplier2) Digikey))
-      (libsource (lib device) (part LED))
+      (libsource (lib MysensorsGW-rescue) (part LED-RESCUE-MysensorsGW))
       (sheetpath (names /) (tstamps /))
       (tstamp 55AE86E7))
     (comp (ref R6)
@@ -475,7 +475,7 @@
       (fields
         (field (name Supplier1) Mouser)
         (field (name Supplier2) Digikey))
-      (libsource (lib MysensorsGW-rescue) (part TEST-RESCUE-MysensorsGW))
+      (libsource (lib MysensorsGW-cache) (part TEST-RESCUE-MysensorsGW))
       (sheetpath (names /) (tstamps /))
       (tstamp 55E2659E))
     (comp (ref P7)
@@ -484,7 +484,7 @@
       (fields
         (field (name Supplier1) Mouser)
         (field (name Supplier2) Digikey))
-      (libsource (lib MysensorsGW-rescue) (part TEST-RESCUE-MysensorsGW))
+      (libsource (lib MysensorsGW-cache) (part TEST-RESCUE-MysensorsGW))
       (sheetpath (names /) (tstamps /))
       (tstamp 55E2A22E))
     (comp (ref CON1)
@@ -510,7 +510,7 @@
     (comp (ref BT1)
       (value Battery)
       (footprint Pin_Headers:Pin_Header_Straight_1x02)
-      (libsource (lib device) (part Battery))
+      (libsource (lib MysensorsGW-rescue) (part Battery-RESCUE-MysensorsGW))
       (sheetpath (names /) (tstamps /))
       (tstamp 56ABAD62))
     (comp (ref D5)
@@ -519,7 +519,7 @@
       (fields
         (field (name Supplier1) Mouser)
         (field (name Supplier2) Digikey))
-      (libsource (lib device) (part LED))
+      (libsource (lib MysensorsGW-rescue) (part LED-RESCUE-MysensorsGW))
       (sheetpath (names /) (tstamps /))
       (tstamp 56ACC815))
     (comp (ref R7)
@@ -531,7 +531,7 @@
     (comp (ref SW2)
       (value SW_INCL)
       (footprint Pin_Headers:Pin_Header_Straight_1x02)
-      (libsource (lib device) (part SW_PUSH))
+      (libsource (lib MysensorsGW-cache) (part SW_PUSH))
       (sheetpath (names /) (tstamps /))
       (tstamp 56AD2F30))
     (comp (ref W1)
@@ -718,11 +718,10 @@
         (pin (num 1) (name SDA) (type BiDi))
         (pin (num 2) (name VCC) (type power_in))
         (pin (num 3) (name GND) (type power_in))))
-    (libpart (lib device) (part Battery)
-      (description Battery)
+    (libpart (lib MysensorsGW-rescue) (part Battery-RESCUE-MysensorsGW)
       (fields
         (field (name Reference) BT)
-        (field (name Value) Battery))
+        (field (name Value) Battery-RESCUE-MysensorsGW))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
@@ -782,7 +781,7 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib MysensorsGW-rescue) (part CRYSTAL-RESCUE-MysensorsGW)
+    (libpart (lib MysensorsGW-cache) (part CRYSTAL-RESCUE-MysensorsGW)
       (fields
         (field (name Reference) X)
         (field (name Value) CRYSTAL-RESCUE-MysensorsGW))
@@ -820,14 +819,13 @@
       (pins
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive))))
-    (libpart (lib device) (part LED)
-      (description "LED generic")
+    (libpart (lib MysensorsGW-rescue) (part LED-RESCUE-MysensorsGW)
       (footprints
         (fp LED-*)
         (fp LED_*))
       (fields
         (field (name Reference) D)
-        (field (name Value) LED))
+        (field (name Value) LED-RESCUE-MysensorsGW))
       (pins
         (pin (num 1) (name K) (type passive))
         (pin (num 2) (name A) (type passive))))
@@ -913,15 +911,14 @@
         (pin (num 14) (name MOSI) (type input))
         (pin (num 15) (name NSS) (type input))
         (pin (num 16) (name NC) (type passive))))
-    (libpart (lib device) (part SW_PUSH)
-      (description "Push button switch, normally open, two pins")
+    (libpart (lib MysensorsGW-cache) (part SW_PUSH)
       (fields
         (field (name Reference) SW)
         (field (name Value) SW_PUSH))
       (pins
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive))))
-    (libpart (lib MysensorsGW-rescue) (part TEST-RESCUE-MysensorsGW)
+    (libpart (lib MysensorsGW-cache) (part TEST-RESCUE-MysensorsGW)
       (fields
         (field (name Reference) W)
         (field (name Value) TEST-RESCUE-MysensorsGW))
@@ -990,8 +987,6 @@
         (pin (num 9) (name CARD_DETECT) (type input))
         (pin (num 10) (name SHELL1) (type input)))))
   (libraries
-    (library (logical memory)
-      (uri /usr/share/kicad/library/memory.lib))
     (library (logical mysensors_security)
       (uri /home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_security.lib))
     (library (logical mysensors_regulators)
@@ -1000,18 +995,20 @@
       (uri /home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_radios.lib))
     (library (logical mysensors_network)
       (uri /home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_network.lib))
-    (library (logical MysensorsGW-cache)
-      (uri /home/thomas/Projects/kicad/MysensorsGW/MysensorsGW-cache.lib))
     (library (logical mysensors_connectors)
       (uri /home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_connectors.lib))
     (library (logical mysensors_mcu)
       (uri /home/thomas/gits/GitHub/mysensors-kicad/mysensors_symbols/mysensors_mcu.lib))
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical MysensorsGW-cache)
+      (uri /home/thomas/Projects/kicad/MysensorsGW/MysensorsGW-cache.lib))
+    (library (logical memory)
+      (uri /usr/share/kicad/library/memory.lib))
+    (library (logical MysensorsGW-rescue)
+      (uri /home/thomas/Projects/kicad/MysensorsGW/MysensorsGW-rescue.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
-    (library (logical MysensorsGW-rescue)
-      (uri /home/thomas/Projects/kicad/MysensorsGW/MysensorsGW-rescue.lib)))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name +5V)
       (node (ref P5) (pin 1))
